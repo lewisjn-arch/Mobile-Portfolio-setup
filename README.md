@@ -6,7 +6,6 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -19,15 +18,14 @@
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
 - [📝 License](#license)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [First-Project] <a name="about-project"></a>
+# 📖 [Mobile-Portfolio-setup] <a name="about-project"></a>
 
 
-**[First-Project]** is a html/css project that I have done to teach me how to use linters.
+**Mobile-Portfolio-setup** is a html/css project that I have done to teach me how to use linters.
 
 ## 🛠 Built With <a name="html"></a>
 
@@ -58,7 +56,7 @@
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
- You could make use of this project to train you on how to use linters and improve your code quality.
+ You could make use of this project to train you how to use flexbox and style a portfolio page for your projects in html/css.
 
 
 To get a local copy up and running, follow these steps.
@@ -74,7 +72,7 @@ In order to run this project you need:
 ### Setup
 
 Clone this repository to your desired folder:
-https://github.com/lewisjn-arch/First-Project.git
+https://github.com/lewisjn-arch/Mobile-Portfolio-setup.git
 
 
 ### Install
@@ -127,7 +125,7 @@ If you like this project please like and share to your available networks and I 
 
 <!-- ACKNOWLEDGEMENTS -->
 
-## 🙏 Acknowledgments <a name="acknowledgements">Johnson Irungu</a>
+## 🙏 Acknowledgments <a name="acknowledgements">:Johnson Irungu</a>
 
 I would like to thank Johnson Irungu because he has helped me understand and solve issues on where I was stuck.
 
@@ -137,6 +135,6 @@ I would like to thank Johnson Irungu because he has helped me understand and sol
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT.md] licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
