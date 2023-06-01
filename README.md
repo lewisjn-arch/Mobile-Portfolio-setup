@@ -25,7 +25,7 @@
 # 📖 [Mobile-Portfolio-setup] <a name="about-project"></a>
 
 
-**Mobile-Portfolio-setup** is a html/css project that I have done to teach me how to use linters.
+**Mobile-Portfolio-setup** is a html/css project that I have done to teach me how to design and build a simple portfolio website that is responsive.
 
 ## 🛠 Built With <a name="html"></a>
 
