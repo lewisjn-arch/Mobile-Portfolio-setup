@@ -1,8 +1,22 @@
+/* CSS Resetter */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+    background: #3c3a39;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0 10px 10px;
+}
+
 .app_bar_container {
-  background: #3c3a39;
-  position: absolute;
-  width: 423px;
-  height: 48px;
   margin: 0;
 }
 
@@ -18,20 +32,13 @@
 }
 
 .nav_bar_text {
-  width: 70px;
-  height: 24px;
-  padding: 10px 12px 10px 12px;
   font-family: 'Roboto', sans-serif;
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
-  line-height: 24px;
-  margin: 0;
   color: #fff;
 }
 
 .burger_menu_container {
-  position: absolute;
   width: 40px;
   height: 40px;
   right: 24px;
@@ -42,8 +49,6 @@
 .burger_menu {
   height: 40px;
   width: 40px;
-  margin-left: 0;
-  margin-top: 0;
   border-radius: 0;
 }
 
@@ -54,7 +59,7 @@
   align-items: flex-start;
   padding: 120px 24px;
   gap: 12px;
-  position: absolute;
+  /* position: absolute; */
   width: 375px;
   height: 590px;
   left: 0;
@@ -121,7 +126,7 @@
 }
 
 .illustration {
-  position: absolute;
+  position: relative;
   width: 140px;
   height: 410px;
   left: 65.74%;
