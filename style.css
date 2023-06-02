@@ -1,139 +1,131 @@
-.app_bar_container{
-    background: #3C3A39;
-    position: absolute;
-    width: 423px;
-    height: 48px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-
-}
-.nav_bar_text_container{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 10px 12px 10px 12px;
-    
-    position: absolute;
-    width: 94px;
-    height: 48px;
-    left: 24px;
-    top: calc(50% - 44px/2);
-}
-.nav_bar_text{
-    width: 70px;
-    height: 48px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 24px;
-    color: #FFFFFF;
+.app_bar_container {
+  background: #3c3a39;
+  position: absolute;
+  width: 423px;
+  height: 48px;
+  margin: 0;
 }
 
-
-.burger_menu_container{
-    position: absolute;
-    width: 40px;
-    height: 40px;
-    right: 24px;
-    top: calc(50% - 40px/2);
-    
-    border-radius: 8px; 
-}
-.burger_menu{
-    height: 40px;
-    width: 40px;
-    margin-left: 0px;
-    margin-top: 0px;
-    border-radius: 0px;
+.nav_bar_text_container {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 94px;
+  align-items: center;
+  height: 48px;
+  left: 0;
+  top: calc(50% - 44px / 2);
 }
 
-.headline{
-    display: flex;
-    background: #1C1A19;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 120px 24px;
-    gap: 12px;
+.nav_bar_text {
+  width: 70px;
+  height: 24px;
+  padding: 10px 12px 10px 12px;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  margin: 0;
+  color: #fff;
+}
 
-    position: absolute;
-    width: 375px;
-    height: 590px;
-    left: 0px;
-    right:0px;
-    top: 48px;
+.burger_menu_container {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 24px;
+  top: calc(50% - 40px / 2);
+  border-radius: 8px;
+}
+
+.burger_menu {
+  height: 40px;
+  width: 40px;
+  margin-left: 0;
+  margin-top: 0;
+  border-radius: 0;
+}
+
+.headline {
+  display: flex;
+  background: #1c1a19;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 120px 24px;
+  gap: 12px;
+  position: absolute;
+  width: 375px;
+  height: 590px;
+  left: 0;
+  right: 0;
+  top: 48px;
 }
 
 .main_text {
-    width: 327px;
-    height: 124px;
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 56px;
-    line-height: 64px;
-    margin: 0px;
-    color: #FF6B00;
+  width: 327px;
+  height: 124px;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+  font-family: 'Crete Round', serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 64px;
+  margin: 0;
+  color: #ff6b00;
 }
-.subject_text{
-    flex: none;
-    order: 1;
-    flex-grow: 0;
 
-    color: #FFF5E1;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 32px;
-    margin: 0px;
-    height: 27px;
-    width: 327px;
+.subject_text {
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+  color: #fff5e1;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 32px;
+  margin: 0;
+  height: 27px;
+  width: 327px;
 }
-.description_text{
-    width: 327px;
-    height: 123px;
 
-    flex: none;
-    order: 2;
-    flex-grow: 0;
-
-    color: #FFFFFF;
-    font-family: 'Poppins';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    margin: 0px;
-    line-height: 24px;
+.description_text {
+  width: 327px;
+  height: 123px;
+  flex: none;
+  order: 2;
+  flex-grow: 0;
+  color: #fff;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0;
+  line-height: 24px;
 }
-.social_media{
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
 
-    flex: none;
-    order: 3;
-    flex-grow: 0;
-
-    width: 200px;
-    height: 40px;
-    bottom: 120px;
-    left:24px;
+.social_media {
+  display: flex;
+  flex-direction: row;
+  padding: 0;
+  flex: none;
+  order: 3;
+  flex-grow: 0;
+  width: 200px;
+  height: 40px;
+  bottom: 120px;
+  left: 24px;
 }
-.illustration{
-    position: absolute;
-    width: 147px;
-    height:410px;
-    left: 65.74%;
-    right: -30.09%;
-    top: 29.3%;
-    bottom: -11.63%;
+
+.illustration {
+  position: absolute;
+  width: 140px;
+  height: 410px;
+  left: 65.74%;
+  right: -30.09%;
+  top: 29.3%;
+  bottom: -11.63%;
 }
