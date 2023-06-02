@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -53,6 +54,11 @@
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
+<!-- LIVE DEMO -->
+## 🚀 Live Demo <a name="live-demo"></a>
+
+ - Not deployed yet
+
 ## 💻 Getting Started <a name="getting-started"></a>
 
 
@@ -85,12 +91,22 @@ This project does not need installation. It automatically runs on the web browse
 To run the project, execute the following command:
 You need to double-click the index.html file.
 
+### Run tests
+
+Please run below command to run linter test
+
+```
+npx hint .
+```
+
+### Deployment
+
+You can use any web platform like gh-pages for deployment.
 
 ## 👥 Authors <a name="authors" href="https://github.com/lewisjn-arch">Lewis Hinga</a>
 
 
-
-👤 **Author1**
+👤 **Lewis Hinga**
 
 - GitHub: [@githubhandle](https://github.com/lewisjn-arch)
 - Twitter: [@twitterhandle](https://twitter.com/lhinga75)
@@ -100,9 +116,9 @@ You need to double-click the index.html file.
 
 
 
-- [ ] **[links to other pages on website]**
-- [ ] **[Javascript functionilty]**
-- [ ] **[Desktop responsiveness]**
+- [ ] **links to other pages on website**
+- [ ] **Javascript functionilty**
+- [ ] **Desktop responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
