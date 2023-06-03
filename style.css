@@ -110,17 +110,102 @@
 }
 
 .portfolio {
+  position: relative;
   display: flex;
-  top: 603px;
   flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
   width: 100%;
-  padding: 120px 0px;
+  padding: 120px 24px;
   gap: 24px;
   background: #E5E5E5;
 }
 
+.portfolio_title{
+  font-family: 'Crete Round', serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: left;
+  right: 24px;
+  left: 24px;
+  color: #1C1A19;
+}
+
+.separation {
+  width: 327px;
+  margin-bottom: 56px;
+  color: 20px solid #212121;
+}
+
+.feature-project_preview_image{
+  background-image: url(Architectural.jpg);
+  background-size:cover;
+  height: 237px;
+  width: 327px;
+  left: 24px;
+  border-radius: 5px;
+}
+
+.feature-project_title{
+  font-family: 'Crete Round', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #091E42;
+  left: 24px;
+  right:24px;
+}
+
+.feature-project_description{
+  width: 327px;
+  font-family: 'Inter', serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+
+.feature-project_skills {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.feature-skill_container {
+  padding: 10px 12px;
+  border: 1px solid #1C1A19;
+}
+
+.feature-skill {
+  font-family: 'Inter', serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #091E42;
+  }
+
+.feature-project_link {
+  width: 124px;
+  padding: 12px;
+  border: none;
+  background: #FF6B00;
+}
+.feature-link_text{
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px; 
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+  
 .project_container_1 {
   display: flex;
   flex-direction: column;
@@ -266,4 +351,140 @@ color: #FFFFFF;
   letter-spacing: 0.03em;
   text-align: center;
   color: #FFFFFF;
+}
+
+.about_me {
+  position: relative;
+  width: 375px;
+  background: #1C1A19;
+  padding-top: 120px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 50px;
+}
+
+.bio_header{
+  font-family: 'Crete Round',sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  line-height: 88px;
+  letter-spacing: 0.05em;
+  text-align: left;
+  color: #FF6B00;
+}
+
+.bio {
+  margin-top: 24px;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #F4F5F7;
+  text-align: left;
+}
+
+.resume_link {
+  text-decoration: none;
+}
+
+.resume_button {
+  margin-top: 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  border: none;
+  background: #FF6B00;
+}
+
+.link_text  {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 24px; 
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.about_me_illustration {
+  position: absolute;
+  width: 160px;
+  height: 250px;
+  flex: none;
+  order: 4;
+  flex-grow: 0;
+  background-image: url(illustration.png);
+  background-repeat: no-repeat;
+  right: 0;
+  top: 384px;
+}
+
+.separation_line {
+  margin-top: 209px;
+  color: solid #FFFFFF;
+}
+
+.knowledge{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  top: 8px;
+  bottom: 38px;
+  padding-top: 120px;
+  padding-bottom: 50px;
+  gap: 44px;
+}
+
+.competent{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.category_style {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.bullet_1 {
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+  transform: rotate(-45deg);
+}
+
+.bullet_2 {
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+}
+
+.bullet_3 {
+  width: 18px;
+  height: 18px;
+  background: #FF6B00;
+  border-radius: 150px;
+  }
+
+
+.category {
+  font-family: 'InaiMathi', sans-serif;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.competency {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 43px;
+  text-align: center;
+  color: #FFFFFF;
+  margin-top: 32px;
 }
