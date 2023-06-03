@@ -104,7 +104,7 @@
   order: 4;
   flex-grow: 0;
   right: 0%;
-  bottom: 0px;
+  bottom: 0;
   background-image: url('Images/Illustration.png');
   background-repeat: no-repeat;
 }
@@ -116,19 +116,19 @@
   width: 100%;
   padding: 120px 24px;
   gap: 24px;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
-.portfolio_title{
+.portfolio_title {
   font-family: 'Crete Round', serif;
   font-size: 40px;
   font-weight: 400;
   line-height: 52px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
   right: 24px;
   left: 24px;
-  color: #1C1A19;
+  color: #1c1a19;
 }
 
 .separation {
@@ -137,28 +137,28 @@
   color: 20px solid #212121;
 }
 
-.feature-project_preview_image{
+.feature-project_preview_image {
   background-image: url(Architectural.jpg);
-  background-size:cover;
+  background-size: cover;
   height: 237px;
   width: 327px;
   left: 24px;
   border-radius: 5px;
 }
 
-.feature-project_title{
+.feature-project_title {
   font-family: 'Crete Round', serif;
   font-size: 32px;
   font-weight: 400;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: left;
-  color: #091E42;
+  color: #091e42;
   left: 24px;
-  right:24px;
+  right: 24px;
 }
 
-.feature-project_description{
+.feature-project_description {
   width: 327px;
   font-family: 'Inter', serif;
   font-weight: 400;
@@ -178,7 +178,7 @@
 
 .feature-skill_container {
   padding: 10px 12px;
-  border: 1px solid #1C1A19;
+  border: 1px solid #1c1a19;
 }
 
 .feature-skill {
@@ -187,25 +187,26 @@
   font-weight: 200;
   line-height: 20px;
   letter-spacing: 0.05em;
-  color: #091E42;
-  }
+  color: #091e42;
+}
 
 .feature-project_link {
   width: 124px;
   padding: 12px;
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
 }
-.feature-link_text{
+
+.feature-link_text {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px; 
+  line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
 }
-  
+
 .project_container_1 {
   display: flex;
   flex-direction: column;
@@ -214,8 +215,13 @@
   width: 327px;
   height: 386px;
   margin: 0;
-  background:  linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.9) 61.94%),url(ecommerce.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(ecommerce.png);
   background-size: cover;
 }
 
@@ -227,8 +233,13 @@
   width: 327px;
   height: 386px;
   margin: 0;
-  background:  linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.9) 61.94%),url(university.png);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(university.png);
   background-size: cover;
 }
 
@@ -240,8 +251,13 @@
   width: 327px;
   height: 386px;
   margin: 0;
-  background:  linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.9) 61.94%),url(company.jpg);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(company.jpg);
   background-size: cover;
 }
 
@@ -253,8 +269,13 @@
   width: 327px;
   height: 386px;
   margin: 0;
-  background:  linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.9) 61.94%),url(business.jpg);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(business.jpg);
   background-size: cover;
 }
 
@@ -266,8 +287,13 @@
   width: 327px;
   height: 386px;
   margin: 0;
-  background:  linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.9) 61.94%),url(banking.jpg);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(banking.jpg);
   background-size: cover;
 }
 
@@ -279,34 +305,39 @@
   width: 327px;
   height: 386px;
   margin: 0;
-  background:  linear-gradient(180.45deg, rgba(38, 38, 38, 0) 0.75%,
-  rgba(38, 38, 38, 0.9) 61.94%),url(trading.jpg);
+  background:
+    linear-gradient(
+      180.45deg,
+      rgba(38, 38, 38, 0) 0.75%,
+      rgba(38, 38, 38, 0.9) 61.94%
+    ),
+    url(trading.jpg);
   background-size: cover;
 }
 
 .project_title {
-font-family: 'Crete Round', sans-serif;
-font-size: 32px;
-font-weight: 200;
-line-height: 44px;
-letter-spacing: 0.02em;
-margin-top: 72px;
-margin-left: 13px;
-margin-right: 13px;
-text-align: left;
-color: #FFFFFF;
+  font-family: 'Crete Round', sans-serif;
+  font-size: 32px;
+  font-weight: 200;
+  line-height: 44px;
+  letter-spacing: 0.02em;
+  margin-top: 72px;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: left;
+  color: #fff;
 }
 
 .project_description {
-font-family: 'Inter', serif;
-font-size: 15px;
-font-weight: 200;
-line-height: 24px;
-letter-spacing: 0.02em;
-margin-left: 13px;
-margin-right: 13px;
-text-align: left;
-color: #FFFFFF;
+  font-family: 'Inter', serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  margin-left: 13px;
+  margin-right: 13px;
+  text-align: left;
+  color: #fff;
 }
 
 .project_skills {
@@ -319,58 +350,48 @@ color: #FFFFFF;
   list-style: none;
 }
 
-.skill_container{
+.skill_container {
   padding: 10px 12px;
   background: rgba(255, 255, 255, 0.24);
 }
 
 .skill {
-font-family: 'Inter', serif;
-font-size: 15px;
-font-weight: 200;
-line-height: 20px;
-letter-spacing: 0em;
-text-align: left;
-color: #FFFFFF;
+  font-family: 'Inter', serif;
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 20px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #fff;
 }
 
-.project_link{
+.project_link {
   width: 327px;
   height: 48px;
-  left: 0px;
-  top: 0px;
+  left: 0;
+  top: 0;
   border: none;
-  background: #FF6B00;
-}
-
-.link_text {
-  font-family: 'Inter', sans-serif;
-  font-size: 17px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-  text-align: center;
-  color: #FFFFFF;
+  background: #ff6b00;
 }
 
 .about_me {
   position: relative;
   width: 375px;
-  background: #1C1A19;
+  background: #1c1a19;
   padding-top: 120px;
   padding-left: 24px;
   padding-right: 24px;
   padding-bottom: 50px;
 }
 
-.bio_header{
-  font-family: 'Crete Round',sans-serif;
+.bio_header {
+  font-family: 'Crete Round', sans-serif;
   font-size: 45px;
   font-weight: 400;
   line-height: 88px;
   letter-spacing: 0.05em;
   text-align: left;
-  color: #FF6B00;
+  color: #ff6b00;
 }
 
 .bio {
@@ -379,7 +400,7 @@ color: #FFFFFF;
   font-weight: 400;
   font-size: 16px;
   line-height: 24px;
-  color: #F4F5F7;
+  color: #f4f5f7;
   text-align: left;
 }
 
@@ -394,17 +415,17 @@ color: #FFFFFF;
   align-items: center;
   padding: 12px;
   border: none;
-  background: #FF6B00;
+  background: #ff6b00;
 }
 
-.link_text  {
+.link_text {
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 17px;
-  line-height: 24px; 
+  line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .about_me_illustration {
@@ -422,10 +443,10 @@ color: #FFFFFF;
 
 .separation_line {
   margin-top: 209px;
-  color: solid #FFFFFF;
+  color: solid #fff;
 }
 
-.knowledge{
+.knowledge {
   display: flex;
   flex-direction: column;
   position: relative;
@@ -436,13 +457,13 @@ color: #FFFFFF;
   gap: 44px;
 }
 
-.competent{
+.competent {
   margin-left: 50px;
   margin-right: 50px;
 }
 
 .category_style {
-  display:flex;
+  display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
@@ -451,32 +472,31 @@ color: #FFFFFF;
 .bullet_1 {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
   transform: rotate(-45deg);
 }
 
 .bullet_2 {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
 }
 
 .bullet_3 {
   width: 18px;
   height: 18px;
-  background: #FF6B00;
+  background: #ff6b00;
   border-radius: 150px;
-  }
-
+}
 
 .category {
   font-family: 'InaiMathi', sans-serif;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  letter-spacing: 0em;
+  letter-spacing: 0;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
 }
 
 .competency {
@@ -485,6 +505,6 @@ color: #FFFFFF;
   font-size: 22px;
   line-height: 43px;
   text-align: center;
-  color: #FFFFFF;
+  color: #fff;
   margin-top: 32px;
 }
