@@ -454,19 +454,20 @@
   bottom: 38px;
   padding-top: 120px;
   padding-bottom: 50px;
-  gap: 44px;
+  gap: 32px;
 }
 
 .competent {
-  margin-left: 50px;
-  margin-right: 50px;
+  margin-left: 25px;
+  margin-right: 25px;
 }
+
 
 .category_style {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
 }
 
 .bullet_1 {
@@ -474,12 +475,14 @@
   height: 18px;
   background: #ff6b00;
   transform: rotate(-45deg);
+  margin-right: 15px;
 }
 
 .bullet_2 {
   width: 18px;
   height: 18px;
   background: #ff6b00;
+  margin-right: 20px;
 }
 
 .bullet_3 {
@@ -487,6 +490,7 @@
   height: 18px;
   background: #ff6b00;
   border-radius: 150px;
+  margin-right: 15px;
 }
 
 .category {
@@ -497,6 +501,7 @@
   letter-spacing: 0;
   text-align: center;
   color: #fff;
+  list-style: none;
 }
 
 .competency {
@@ -506,5 +511,6 @@
   line-height: 43px;
   text-align: center;
   color: #fff;
-  margin-top: 32px;
+  margin-top: 24px;
+  list-style: none;
 }
