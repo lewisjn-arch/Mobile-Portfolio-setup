@@ -112,6 +112,14 @@ You can use any web platform like gh-pages for deployment.
 - Twitter: [@twitterhandle](https://twitter.com/lhinga75)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/lewis-hinga-b40a501b1/)
 
+👤 **Okari Nyandika**
+
+- GitHub: [@githubhandle](https://github.com/2004-okari)
+
+👤 **Emiola Akorede**
+
+- GitHub: [@githubhandle](https://github.com/Akorede3133)
+
 ## 🔭 Future Features <a name="future-features"></a>
 
 

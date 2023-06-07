@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Crete+Round:ital@0;1&family=Poppins:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Mobile version skeleton</title>
 </head>
@@ -63,7 +63,7 @@
             <li class="feature-skill_container"><span class="feature-skill">Bootstrap</span></li>
             <li class="feature-skill_container"><span class="feature-skill">Ruby</span></li>
         </ul>
-            <button class="feature-project_link">
+            <button type="button" class="feature-project_link">
                 <span class="feature-link_text">See project</span>
             </button>
         <div class="project_container_1">
@@ -81,7 +81,7 @@
                 <li class="skill_container"><span class="skill">Bootstrap</span></li>
                 <li class="skill_container"><span class="skill">Ruby</span></li>
             </ul>
-            <button class="project_link"><span class="link_text">See project</span></button>
+            <button type="button" class="project_link"><span class="link_text">See project</span></button>
         </div>
         <div class="project_container_2">
             <div class="project_title">
@@ -98,7 +98,7 @@
                 <li class="skill_container"><span class="skill">Bootstrap</span></li>
                 <li class="skill_container"><span class="skill">Ruby</span></li>
             </ul>
-            <button class="project_link"><span class="link_text">See project</span></button>
+            <button type="button" class="project_link"><span class="link_text">See project</span></button>
         </div>
         <div class="project_container_3">
             <div class="project_title">
@@ -115,7 +115,7 @@
                 <li class="skill_container"><span class="skill">Bootstrap</h4></li>
                 <li class="skill_container"><span class="skill">Ruby</span></li>
             </ul>
-            <button class="project_link"><span class="link_text">See project</span></button>
+            <button type="button" class="project_link"><span class="link_text">See project</span></button>
         </div>
         <div class="project_container_4">
             <div class="project_title">
@@ -132,7 +132,7 @@
                 <li class="skill_container"><span class="skill">Bootstrap</span></li>
                 <li class="skill_container"><span class="skill">Ruby</span></li>
             </ul>
-            <button class="project_link"><span class="link_text">See project</span></button>
+            <button type="button" class="project_link"><span class="link_text">See project</span></button>
         </div>
         <div class="project_container_5">
             <div class="project_title">
@@ -149,7 +149,7 @@
                 <li class="skill_container"><span class="skill">Bootstrap</span></li>
                 <li class="skill_container"><span class="skill">Ruby</span></li>
             </ul>
-            <button class="project_link"><span class="link_text">See project</span></button>
+            <button type="button" class="project_link"><span class="link_text">See project</span></button>
         </div>
         <div class="project_container_6">
             <div class="project_title">
@@ -166,7 +166,7 @@
                 <li class="skill_container"><span class="skill">Bootstrap</span></li>
                 <li class="skill_container"><span class="skill">Ruby</span></li>
             </ul>
-            <button class="project_link"><spsn class="link_text">See project</span></button>
+            <button type="button" class="project_link"><spsn class="link_text">See project</span></button>
         </div>
     </section>
     <section class="about_me">
@@ -180,7 +180,7 @@
         </div>
 
         <a href="#" class="resume_link">
-            <button class="resume_button">
+            <button type="button" class="resume_button">
                 <span class="link_text">Get my resume</span>
             </button>
         </a>
@@ -223,8 +223,30 @@
         </div>
         
     </section>
+    <section class="contact_me">
+        <form action="https://formspree.io/f/xwkjdnzq" method="post" class="contact_me_form">
+            <h3 class="contact-bio">
+                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+            </h3>
+            <input type="text" name="name" placeholder="Full Name" id="name-id" minlength="4" maxlength="30" required>
+            <div class="seperation_line_1"></div>
+            <input type="email" name="email" placeholder="Email address" id="email-id" required>
+            <div class="seperation_line"></div>
+            <textarea name="text-area" placeholder="Write me something..." id="text-area" rows="5" cols="30" maxlength="500" required></textarea>
+            <input type="submit" name="Get in touch" id="submit" value="Get in touch" placeholder="Get in touch">
+            <div class="seperate_line_2"></div>
+        </form>
+    </section>
+    <footer class="footer">
+        <ul class="contact-list">
+            <li><a href="https://github.com"><img src="git-hub.svg" alt="profile-images"></a></li>
+            <li><a href="https://linkedIn-in.com"><img src="linked-in.svg" alt="profile-images"></a></li>
+            <li><a href="https://angelist.com"><img src="angelist-ang.svg" alt="profile-images"></a></li>
+            <li><a href="https://twitter.com"><img src="tweet.svg" alt="profile-images"></a></li>
+            <li><a href="https://medium.com"><img src="med.svg" alt="profile-images"></a></li>
+        </ul>
+    </footer>
 </body>
 </html>
-
 
 
