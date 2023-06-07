@@ -626,6 +626,14 @@
   margin-top: 3.2%;
 }
 
+.seperation_line_1 {
+  width: 87.2%;
+  margin: 0 auto;
+  border: 1px solid #dbd8d7;
+  margin-top: 3.2%;
+  margin-bottom: 10%;
+}
+
 #text-area {
   background-color: #fbf8f7;
   height: 5%;
@@ -676,6 +684,7 @@
 .seperate_line_2 {
   border: 1px solid #dbd8d7;
   margin-top: 20.2%;
+
 }
 
 .footer {
