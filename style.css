@@ -613,6 +613,7 @@
   line-height: 24px;
   border: none;
   outline: none;
+  color: #979493;
 
   &:valid {
     outline: 1.5px solid green;
