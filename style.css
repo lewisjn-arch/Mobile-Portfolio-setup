@@ -195,7 +195,7 @@
   width: 124px;
   padding: 12px;
   border: none;
-  color: #fff; 
+  color: #fff;
 
   &:enabled {
     background-color: #f55800;
@@ -206,7 +206,7 @@
     border: 1px solid #f55800;
     text-decoration-color: #f55800;
     color: #f55800;
-    margin-bottom: -0.10%;
+    margin-bottom: -0.1%;
   }
 
   &:disabled {
@@ -394,7 +394,7 @@
   top: 0;
   border: none;
   color: #fff;
-  
+
   &:enabled {
     background-color: #f55800;
   }
@@ -588,7 +588,6 @@
   box-sizing: border-box;
   width: 375px;
   background-color: #fff;
-
 }
 
 .contact_me_form {
@@ -602,11 +601,11 @@
   font-weight: 700;
   font-size: 32px;
   line-height: 44px;
-  margin-bottom: 56px ;
+  margin-bottom: 56px;
 }
 
-
-#name-id, #email-id {
+#name-id,
+#email-id {
   width: 87.2%;
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -614,7 +613,7 @@
   line-height: 24px;
   border: none;
   outline: none;
-  
+
   &:valid {
     outline: 1.5px solid green;
   }
@@ -679,15 +678,15 @@
   margin-top: 20.2%;
 }
 
-.footer{
+.footer {
   display: flex;
   margin: 0% auto;
   flex-direction: row;
   padding: 0%;
   width: 100%;
   align-content: center;
-
 }
+
 .contact-list {
   list-style: none;
   padding: 0;
