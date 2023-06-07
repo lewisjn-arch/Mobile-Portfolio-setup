@@ -106,7 +106,7 @@
   flex-grow: 0;
   right: 0%;
   bottom: 0;
-  background-image: url('Images/Illustration.png');
+  background-image: url(Illustration.png);
   background-repeat: no-repeat;
 }
 
@@ -498,10 +498,10 @@
   flex: none;
   order: 4;
   flex-grow: 0;
-  background-image: url(illustration.png);
+  background-image: url(resume_illustration.png);
   background-repeat: no-repeat;
   right: 0;
-  top: 384px;
+  top: 20%;
 }
 
 .separation_line {
