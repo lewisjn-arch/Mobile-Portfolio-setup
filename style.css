@@ -1,732 +1,730 @@
-@media only screen and (max-width: 768px){   
-*,
-*::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-.header {
-  position: fixed;
-  width: 100vw;
-  height: 3rem;
-  background: #3c3a39;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 0.06rem 1.5rem;
-  z-index: 222;
-}
-
-.nav_bar_logo {
-  text-decoration: none;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1.1rem;
-  color: #fff;
-}
-
-.nav_menu{
-  display: none;
-  justify-content: baseline;
-  list-style: none;
-}
-
-.burger_menu {
-  height: 2.5rem;
-  width: 2.5rem;
-  border-radius: 0;
-}
-
-.page_container{
-  align-items: flex-start;
-  position: relative;
-  padding: 7.5rem 1.5rem;
-  width: 100vw;
-  height: 100vh;
-  background: #1c1a19;
-  
-}
-
-.headline {
-  display: flex;
-  width: 20.4rem;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 1.5rem; 
-}
-
-.main_text {
-  width: 20.4rem;
-  height: 7.75rem;
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-  font-family: 'Crete Round', serif;
-  font-weight: 400;
-  font-size: 3.5rem;
-  line-height: 4rem;
-  color: #ff6b00;
-}
-
-.subject_text {
-  flex: none;
-  order: 1;
-  flex-grow: 0;
-  color: #fff5e1;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
-  font-size: 1.5rem;
-  line-height: 2rem;
-  margin: 0;
-  height: 1.6rem;
-  width: 20.4rem;
-}
-
-.description_text {
-  width: 20.4rem;
-  height: 7.75rem;
-  flex: none;
-  order: 2;
-  flex-grow: 0;
-  color: #fff;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 400;
-  font-size: 1.005rem;
-  line-height: 1.6rem;
-}
-
-.social_media {
-  list-style: none;
-  display: flex;
-  flex: none;
-  order: 3;
-  flex-grow: 0;
-  width: 12.5rem;
-  height: 2.5rem;
-  left: 1.5rem;
-  margin-top: 1.5rem;
-}
-
-.illustration {
-  position: absolute;
-  width: 9.2rem;
-  height: 22.8rem;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-  right: 0rem;
-  bottom: 0rem;
-  background-image: url("Illustration.png");
-  background-repeat: no-repeat;
-}
-
-.portfolio {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  width: 100vw;
-  padding: 7.5rem 1.5rem;
-  gap: 1.5rem;
-  background: #e5e5e5;
-}
-
-.portfolio_title {
-  font-family: 'Crete Round', serif;
-  font-size: 2.5rem;
-  font-weight: 400;
-  line-height: 3.25rem;
-  letter-spacing: 0.01rem;
-  text-align: center;
-  color: #1c1a19;
-}
-
-.separation {
-  width: 100% auto;
-  margin-top: 2rem;
-  margin-bottom: 3.1rem;
-  color: 0.12rem solid #212121;
-}
-
-.feature-project_preview_image {
-  background-image: url(Architectural.jpg);
-  background-size: cover;
-  height: 14.8rem;
-  width: 100%;
-  border-radius: 0.5rem;
-}
-
-.feature_project_info {
-  display:flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  margin-top: 1.5rem;
-}
-
-.feature-project_title {
-  font-family: 'Crete Round', serif;
-  font-size: 2rem;
-  font-weight: 400;
-  line-height: 2.75rem;
-  letter-spacing: 0;
-  text-align: left;
-  color: #091e42;
-}
-
-.feature-project_description {
-  width: 20.4rem;
-  font-family: 'Inter', serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  text-align: left;
-}
-.feature-project_skills {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.feature-skill_container {
-  padding: 0.6rem 0.75rem;
-  border: 0.06rem solid #1c1a19;
-  list-style: none;
-}
-
-.feature-skill {
-  font-family: 'Inter', serif;
-  font-size: 0.9rem;
-  font-weight: 200;
-  line-height: 1.25rem;
-  letter-spacing: 0.05rem;
-  color: #091e42;
-}
-
-.feature-project_link {
-  width: 7.75rem;
-  height: 3rem;
-  padding: 0.75rem;
-  border: none;
-  color: #fff;
-
-  &:enabled {
-    background-color: #f55800;
+@media only screen and (max-width: 768px) {
+  *,
+  *::after,
+  *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
   }
 
-  &:hover {
-    background-color: #fff5e1;
-    border: 0.06rem solid #f55800;
-    text-decoration-color: #f55800;
-    color: #f55800;
+  .header {
+    position: fixed;
+    width: 100vw;
+    height: 3rem;
+    background: #3c3a39;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.06rem 1.5rem;
+    z-index: 222;
   }
 
-  &:disabled {
-    background: #f4f1f0;
-    color: #5b5957;
-  }
-
-  &:active {
-    background-color: #e05304;
+  .nav_bar_logo {
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.1rem;
     color: #fff;
   }
-}
 
-.feature-link_text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1.06rem;
-  line-height: 1.5rem;
-  text-align: center;
-  letter-spacing: 0.03rem;
-}
-
-.project_container_1 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.75rem;
-  width: 20.4rem;
-  height: 24.1rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(ecommerce.png);
-  background-size: cover;
-}
-
-.project_container_2 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.75rem;
-  width: 20.4rem;
-  height: 24.1rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(university.png);
-  background-size: cover;
-}
-
-.project_container_3 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.75rem;
-  width: 20.4rem;
-  height: 24.1rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(company.jpg);
-  background-size: cover;
-}
-
-.project_container_4 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.75rem;
-  width: 20.4rem;
-  height: 24.1rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(business.jpg);
-  background-size: cover;
-}
-
-.project_container_5 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.75rem;
-  width: 20.4rem;
-  height: 24.1rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(banking.jpg);
-  background-size: cover;
-}
-
-.project_container_6 {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  gap: 0.75rem;
-  width: 20.4rem;
-  height: 24.1rem;
-  background:
-    linear-gradient(
-      180.45deg,
-      rgba(38, 38, 38, 0) 0.75%,
-      rgba(38, 38, 38, 0.9) 61.94%
-    ),
-    url(trading.jpg);
-  background-size: cover;
-}
-
-.project_title {
-  font-family: 'Crete Round', sans-serif;
-  font-size: 2rem;
-  font-weight: 200;
-  line-height: 2.75rem;
-  letter-spacing: 0.02em;
-  margin-top: 4.5rem;
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
-  text-align: left;
-  color: #fff;
-}
-
-.project_description {
-  font-family: 'Inter', serif;
-  font-size: 0.9rem;
-  font-weight: 200;
-  line-height: 1.5rem;
-  letter-spacing: 0.02em;
-  margin-left: 0.8rem;
-  margin-right: 0.8rem;
-  text-align: left;
-  color: #fff;
-}
-
-.project_skills {
-  width: 15.4rem;
-  height: 2.5rem;
-  margin-left: 0.8rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  list-style: none;
-}
-
-.skill_container {
-  padding: 0.6rem 0.75rem;
-  background: rgba(255, 255, 255, 0.24);
-}
-
-.skill {
-  font-family: 'Inter', serif;
-  font-size: 0.9rem;
-  font-weight: 200;
-  line-height: 1.25rem;
-  letter-spacing: 0;
-  text-align: left;
-  color: #fff;
-}
-
-.project_link {
-  width: 20.4rem;
-  height: 3rem;
-  left: 0;
-  top: 0;
-  border: none;
-  color: #fff;
-
-  &:enabled {
-    background-color: #f55800;
+  .nav_menu {
+    display: none;
+    justify-content: baseline;
+    list-style: none;
   }
 
-  &:hover {
-    background-color: #fff5e1;
-    border: 1px solid #f55800;
-    color: #f55800;
-    margin-bottom: -0.4%;
+  .burger_menu {
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 0;
   }
 
-  &:disabled {
-    background: #f4f1f0;
-    color: #5b5957;
+  .page_container {
+    align-items: flex-start;
+    position: relative;
+    padding: 7.5rem 1.5rem;
+    width: 100vw;
+    height: 100vh;
+    background: #1c1a19;
   }
 
-  &:active {
-    background-color: #e05304;
+  .headline {
+    display: flex;
+    width: 20.4rem;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.5rem;
+  }
+
+  .main_text {
+    width: 20.4rem;
+    height: 7.75rem;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: 'Crete Round', serif;
+    font-weight: 400;
+    font-size: 3.5rem;
+    line-height: 4rem;
+    color: #ff6b00;
+  }
+
+  .subject_text {
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    color: #fff5e1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    height: 1.6rem;
+    width: 20.4rem;
+  }
+
+  .description_text {
+    width: 20.4rem;
+    height: 7.75rem;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 1.005rem;
+    line-height: 1.6rem;
+  }
+
+  .social_media {
+    list-style: none;
+    display: flex;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+    width: 12.5rem;
+    height: 2.5rem;
+    left: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .illustration {
+    position: absolute;
+    width: 9.2rem;
+    height: 22.8rem;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url("Illustration.png");
+    background-repeat: no-repeat;
+  }
+
+  .portfolio {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 100vw;
+    padding: 7.5rem 1.5rem;
+    gap: 1.5rem;
+    background: #e5e5e5;
+  }
+
+  .portfolio_title {
+    font-family: 'Crete Round', serif;
+    font-size: 2.5rem;
+    font-weight: 400;
+    line-height: 3.25rem;
+    letter-spacing: 0.01rem;
+    text-align: center;
+    color: #1c1a19;
+  }
+
+  .separation {
+    width: 100% auto;
+    margin-top: 2rem;
+    margin-bottom: 3.1rem;
+    color: 0.12rem solid #212121;
+  }
+
+  .feature-project_preview_image {
+    background-image: url(Architectural.jpg);
+    background-size: cover;
+    height: 14.8rem;
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+
+  .feature_project_info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    margin-top: 1.5rem;
+  }
+
+  .feature-project_title {
+    font-family: 'Crete Round', serif;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2.75rem;
+    letter-spacing: 0;
+    text-align: left;
+    color: #091e42;
+  }
+
+  .feature-project_description {
+    width: 20.4rem;
+    font-family: 'Inter', serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+  }
+
+  .feature-project_skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .feature-skill_container {
+    padding: 0.6rem 0.75rem;
+    border: 0.06rem solid #1c1a19;
+    list-style: none;
+  }
+
+  .feature-skill {
+    font-family: 'Inter', serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 1.25rem;
+    letter-spacing: 0.05rem;
+    color: #091e42;
+  }
+
+  .feature-project_link {
+    width: 7.75rem;
+    height: 3rem;
+    padding: 0.75rem;
+    border: none;
+    color: #fff;
+
+    &:enabled {
+      background-color: #f55800;
+    }
+
+    &:hover {
+      background-color: #fff5e1;
+      border: 0.06rem solid #f55800;
+      text-decoration-color: #f55800;
+      color: #f55800;
+    }
+
+    &:disabled {
+      background: #f4f1f0;
+      color: #5b5957;
+    }
+
+    &:active {
+      background-color: #e05304;
+      color: #fff;
+    }
+  }
+
+  .feature-link_text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.06rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.03rem;
+  }
+
+  .project_container_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 20.4rem;
+    height: 24.1rem;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(ecommerce.png);
+    background-size: cover;
+  }
+
+  .project_container_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 20.4rem;
+    height: 24.1rem;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(university.png);
+    background-size: cover;
+  }
+
+  .project_container_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 20.4rem;
+    height: 24.1rem;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(company.jpg);
+    background-size: cover;
+  }
+
+  .project_container_4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 20.4rem;
+    height: 24.1rem;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(business.jpg);
+    background-size: cover;
+  }
+
+  .project_container_5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 20.4rem;
+    height: 24.1rem;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(banking.jpg);
+    background-size: cover;
+  }
+
+  .project_container_6 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.75rem;
+    width: 20.4rem;
+    height: 24.1rem;
+    background:
+      linear-gradient(
+        180.45deg,
+        rgba(38, 38, 38, 0) 0.75%,
+        rgba(38, 38, 38, 0.9) 61.94%
+      ),
+      url(trading.jpg);
+    background-size: cover;
+  }
+
+  .project_title {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 2.75rem;
+    letter-spacing: 0.02em;
+    margin-top: 4.5rem;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align: left;
     color: #fff;
   }
-}
 
-.about_me {
-  position: relative;
-  width: 100%;
-  background: #1c1a19;
-  padding-top: 7.5rem;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-  padding-bottom: 3.1rem;
-}
-
-.bio_header {
-  font-family: 'Crete Round', sans-serif;
-  font-size: 2.8rem;
-  font-weight: 400;
-  line-height: 5.5rem;
-  letter-spacing: 0.05em;
-  text-align: left;
-  color: #ff6b00;
-}
-
-.portfolio_thumbnails {
-  position: relative;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  flex-wrap: wrap;
-  width: 100%;
-  gap: 24px;
-  background: #e5e5e5;
-
-}
-
-.bio {
-  margin-top: 1.5rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 1rem;
-  line-height: 1.5rem;
-  color: #f4f5f7;
-  text-align: left;
-}
-
-.resume_link {
-  text-decoration: none;
-}
-
-.resume_button {
-  margin-top: 1.5rem;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 0.75rem;
-  border: none;
-  background: #ff6b00;
-  color: #fff;
-
-  &:enabled {
-    background-color: #f55800;
-  }
-
-  &:hover {
-    background-color: #fff5e1;
-    border: 0.06rem solid #f55800;
-    color: #f55800;
-  }
-
-  &:disabled {
-    background: #f4f1f0;
-    color: #5b5957;
-  }
-
-  &:active {
-    background-color: #e05304;
+  .project_description {
+    font-family: 'Inter', serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 1.5rem;
+    letter-spacing: 0.02em;
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
+    text-align: left;
     color: #fff;
   }
-}
 
-.link_text {
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 1.06rem;
-  line-height: 1.5rem;
-  text-align: center;
-  letter-spacing: 0.03em;
-}
-
-.separation_line {
-  position: relative;
-  margin-top: 13rem;
-  color: solid #fff;
-}
-
-.about_me_illustration {
-  position: absolute;
-  width: 10rem;
-  height: 15.6rem;
-  flex: none;
-  order: 4;
-  flex-grow: 0;
-  background-image: url(resume_illustration.png);
-  background-repeat: no-repeat;
-  right: 0rem;
-  top: 24rem;
-}
-
-.knowledge {
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  top: 0.5rem;
-  bottom: 0.18rem;
-  padding-top: 7.5rem;
-  padding-bottom: 3.1rem;
-  gap: 2rem;
-}
-
-.competent {
-  margin-left: 1.6rem;
-  margin-right: 1.6rem;
-}
-
-.category_style {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
-
-.bullet_1 {
-  width: 1.12rem;
-  height: 1.12rem;
-  background: #ff6b00;
-  transform: rotate(-45deg);
-  margin-right: 0.9rem;
-}
-
-.bullet_2 {
-  width: 1.12rem;
-  height: 1.12rem;
-  background: #ff6b00;
-  margin-right: 1.25rem;
-}
-
-.bullet_3 {
-  width: 1.12rem;
-  height: 1.12rem;
-  background: #ff6b00;
-  border-radius: 9.4rem;
-  margin-right: 0.9rem;
-}
-
-.category {
-  font-family: 'InaiMathi', sans-serif;
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 2.75rem;
-  letter-spacing: 0;
-  text-align: center;
-  color: #fff;
-  list-style: none;
-}
-
-.competency {
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 1.4rem;
-  line-height: 2.75rem;
-  text-align: center;
-  color: #fff;
-  margin-top: 1.5rem;
-  list-style: none;
-}
-
-
-.contact_me {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 4.4rem 1.4rem;
-  align-items: center;
-  margin: 0 auto;
-  box-sizing: border-box;
-  width: 100vw;
-  background-color: #fff;
-}
-
-.contact_me_form {
-  text-align: center;
-  color: #172b4d;
-  width: 20.4rem;
-  margin-top: 4.6rem;
-}
-
-.contact-bio {
-  width: 20.4rem;
-  height:auto;
-  font-family: 'Inter', sans-serif;
-  font-weight: 700;
-  font-size: 2rem;
-  text-align: center;
-  line-height: 2.75rem;
-}
-
-#name-id,
-#email-id {
-  width: 20.4rem;
-  font-family: 'Inter', sans-serif;
-  font-weight: 400;
-  font-size: 0.9rem;
-  line-height: 1.5rem;
-  border: none;
-  outline: none;
-  color: #979493;
-  margin-left: 1rem;
-
-  &:valid {
-    outline: 0.09rem solid green;
-  }
-}
-
-.seperation_line {
-  width: 20.4rem;
-  margin: 0 auto;
-  border: 0.06rem solid #c9bebb;
-  margin-top: 0.5rem;
-}
-
-.seperation_line_1 {
-  width: 20.4rem;
-  margin: 0 auto;
-  border: 0.06rem solid #c9bebb;
-  margin-top: 0.5rem;
-  margin-bottom: 10%;
-}
-
-#text-area {
-  background-color: #eeeae8;
-  width: 20.4rem;
-  border: none;
-  margin-top: 1.3rem;
-  margin-bottom: 1.3rem;
-  color: #3c3a39;
-  font-family: 'Inter', sans-serif;
-  font-style: italic;
-  font-weight: 200;
-  font-size: 0.9rem;
-  padding: 1rem;
-}
-
-#submit {
-  width: 8.1rem;
-  padding: 0.75rem;
-  background-color: #ff6b00;
-  border: none;
-  color: #fff;
-  font-family: 'Inter', Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  font-size: 1.06rem;
-
-  &:enabled {
-    background-color: #f55800;
+  .project_skills {
+    width: 15.4rem;
+    height: 2.5rem;
+    margin-left: 0.8rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
   }
 
-  &:hover {
-    background-color: #fff5e1;
-    border: 0.06rem solid #f55800;
-    color: #f55800;
+  .skill_container {
+    padding: 0.6rem 0.75rem;
+    background: rgba(255, 255, 255, 0.24);
   }
 
-  &:disabled {
-    background: #f4f1f0;
-    color: #5b5957;
-  }
-
-  &:active {
-    background-color: #e05304;
+  .skill {
+    font-family: 'Inter', serif;
+    font-size: 0.9rem;
+    font-weight: 200;
+    line-height: 1.25rem;
+    letter-spacing: 0;
+    text-align: left;
     color: #fff;
   }
+
+  .project_link {
+    width: 20.4rem;
+    height: 3rem;
+    left: 0;
+    top: 0;
+    border: none;
+    color: #fff;
+
+    &:enabled {
+      background-color: #f55800;
+    }
+
+    &:hover {
+      background-color: #fff5e1;
+      border: 1px solid #f55800;
+      color: #f55800;
+      margin-bottom: -0.4%;
+    }
+
+    &:disabled {
+      background: #f4f1f0;
+      color: #5b5957;
+    }
+
+    &:active {
+      background-color: #e05304;
+      color: #fff;
+    }
+  }
+
+  .about_me {
+    position: relative;
+    width: 100%;
+    background: #1c1a19;
+    padding-top: 7.5rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 3.1rem;
+  }
+
+  .bio_header {
+    font-family: 'Crete Round', sans-serif;
+    font-size: 2.8rem;
+    font-weight: 400;
+    line-height: 5.5rem;
+    letter-spacing: 0.05em;
+    text-align: left;
+    color: #ff6b00;
+  }
+
+  .portfolio_thumbnails {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 24px;
+    background: #e5e5e5;
+  }
+
+  .bio {
+    margin-top: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #f4f5f7;
+    text-align: left;
+  }
+
+  .resume_link {
+    text-decoration: none;
+  }
+
+  .resume_button {
+    margin-top: 1.5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.75rem;
+    border: none;
+    background: #ff6b00;
+    color: #fff;
+
+    &:enabled {
+      background-color: #f55800;
+    }
+
+    &:hover {
+      background-color: #fff5e1;
+      border: 0.06rem solid #f55800;
+      color: #f55800;
+    }
+
+    &:disabled {
+      background: #f4f1f0;
+      color: #5b5957;
+    }
+
+    &:active {
+      background-color: #e05304;
+      color: #fff;
+    }
+  }
+
+  .link_text {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.06rem;
+    line-height: 1.5rem;
+    text-align: center;
+    letter-spacing: 0.03em;
+  }
+
+  .separation_line {
+    position: relative;
+    margin-top: 13rem;
+    color: solid #fff;
+  }
+
+  .about_me_illustration {
+    position: absolute;
+    width: 10rem;
+    height: 15.6rem;
+    flex: none;
+    order: 4;
+    flex-grow: 0;
+    background-image: url(resume_illustration.png);
+    background-repeat: no-repeat;
+    right: 0;
+    top: 24rem;
+  }
+
+  .knowledge {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 0.5rem;
+    bottom: 0.18rem;
+    padding-top: 7.5rem;
+    padding-bottom: 3.1rem;
+    gap: 2rem;
+  }
+
+  .competent {
+    margin-left: 1.6rem;
+    margin-right: 1.6rem;
+  }
+
+  .category_style {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .bullet_1 {
+    width: 1.12rem;
+    height: 1.12rem;
+    background: #ff6b00;
+    transform: rotate(-45deg);
+    margin-right: 0.9rem;
+  }
+
+  .bullet_2 {
+    width: 1.12rem;
+    height: 1.12rem;
+    background: #ff6b00;
+    margin-right: 1.25rem;
+  }
+
+  .bullet_3 {
+    width: 1.12rem;
+    height: 1.12rem;
+    background: #ff6b00;
+    border-radius: 9.4rem;
+    margin-right: 0.9rem;
+  }
+
+  .category {
+    font-family: 'InaiMathi', sans-serif;
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 2.75rem;
+    letter-spacing: 0;
+    text-align: center;
+    color: #fff;
+    list-style: none;
+  }
+
+  .competency {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2.75rem;
+    text-align: center;
+    color: #fff;
+    margin-top: 1.5rem;
+    list-style: none;
+  }
+
+  .contact_me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 4.4rem 1.4rem;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 100vw;
+    background-color: #fff;
+  }
+
+  .contact_me_form {
+    text-align: center;
+    color: #172b4d;
+    width: 20.4rem;
+    margin-top: 4.6rem;
+  }
+
+  .contact-bio {
+    width: 20.4rem;
+    height: auto;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2.75rem;
+  }
+
+  #name-id,
+  #email-id {
+    width: 20.4rem;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    border: none;
+    outline: none;
+    color: #979493;
+    margin-left: 1rem;
+
+    &:valid {
+      outline: 0.09rem solid green;
+    }
+  }
+
+  .seperation_line {
+    width: 20.4rem;
+    margin: 0 auto;
+    border: 0.06rem solid #c9bebb;
+    margin-top: 0.5rem;
+  }
+
+  .seperation_line_1 {
+    width: 20.4rem;
+    margin: 0 auto;
+    border: 0.06rem solid #c9bebb;
+    margin-top: 0.5rem;
+    margin-bottom: 10%;
+  }
+
+  #text-area {
+    background-color: #eeeae8;
+    width: 20.4rem;
+    border: none;
+    margin-top: 1.3rem;
+    margin-bottom: 1.3rem;
+    color: #3c3a39;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-weight: 200;
+    font-size: 0.9rem;
+    padding: 1rem;
+  }
+
+  #submit {
+    width: 8.1rem;
+    padding: 0.75rem;
+    background-color: #ff6b00;
+    border: none;
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 1.06rem;
+
+    &:enabled {
+      background-color: #f55800;
+    }
+
+    &:hover {
+      background-color: #fff5e1;
+      border: 0.06rem solid #f55800;
+      color: #f55800;
+    }
+
+    &:disabled {
+      background: #f4f1f0;
+      color: #5b5957;
+    }
+
+    &:active {
+      background-color: #e05304;
+      color: #fff;
+    }
+  }
+
+  .seperate_line_2 {
+    border: 0.06rem solid #dbd8d7;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 4rem;
+    align-content: center;
+  }
+
+  .contact-list {
+    display: flex;
+    list-style: none;
+    padding: 1.5rem;
+    width: 12.5rem;
+    justify-content: space-between;
+  }
 }
 
-.seperate_line_2 {
-  border: 0.06rem solid #dbd8d7;
-}
-
-.footer {
-  display: flex;
-  justify-content: center;
-  flex-direction: row;
-  width: 100vw;
-  height: 4rem;
-  align-content: center;
-}
-
-.contact-list {
-  display: flex;
-  list-style: none;
-  padding: 1.5rem;
-  width: 12.5rem;
-  justify-content: space-between;
-}
-}
-
-@media only screen and (min-width: 768px){
+@media only screen and (min-width: 768px) {
   *,
   *::after,
   *::before {
@@ -743,7 +741,7 @@
 
   .nav_bar_logo {
     width: 100px;
-    margin-top: 5PX;
+    margin-top: 5px;
     text-align: center;
     align-content: center;
     text-decoration: none;
@@ -757,7 +755,7 @@
     display: none;
   }
 
-  .nav_menu{
+  .nav_menu {
     display: flex;
     width: 298px;
     margin-top: 10px;
@@ -765,10 +763,10 @@
     list-style: none;
   }
 
-  .nav_links{
+  .nav_links {
     text-decoration: none;
     color: #fff;
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-size: 15px;
     font-weight: 600;
     line-height: 20px;
@@ -788,13 +786,12 @@
     z-index: 222;
   }
 
-  .page_container{
+  .page_container {
     position: relative;
     width: 1160px;
     height: 470px;
     padding: 200px 140px;
     background: #1c1a19;
-  
   }
 
   .headline {
@@ -802,7 +799,7 @@
     width: 35.3rem;
     flex-direction: column;
     justify-content: space-between;
-    gap: 2rem; 
+    gap: 2rem;
   }
 
   .main_text {
@@ -834,7 +831,7 @@
     height: 1.6rem;
     width: 35.3rem;
   }
-  
+
   .description_text {
     width: 35.3rem;
     height: 7.6rem;
@@ -849,7 +846,7 @@
     margin: 0;
     line-height: 2rem;
   }
-  
+
   .social_media {
     position: absolute;
     list-style: none;
@@ -863,7 +860,7 @@
     left: 2.25rem;
     top: 33%;
   }
-  
+
   .desktop_illustration {
     position: absolute;
     width: 38.75rem;
@@ -967,7 +964,7 @@
     flex-direction: column;
     flex-wrap: wrap;
     width: 1160px;
-    padding:130px 140px;
+    padding: 130px 140px;
     gap: 24px;
     background: #e5e5e5;
   }
@@ -990,10 +987,9 @@
     flex-wrap: wrap;
     gap: 24px;
     background: #e5e5e5;
-
   }
 
-  .recent_works{
+  .recent_works {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -1010,8 +1006,8 @@
 
   .feature_project {
     width: 1160px;
-    display:flex;
-    flex-direction: row; 
+    display: flex;
+    flex-direction: row;
     justify-content: space-between;
   }
 
@@ -1031,7 +1027,6 @@
     gap: 1.5rem;
     width: 28rem;
     height: 21.75rem;
-
   }
 
   .feature-project_title {
@@ -1081,22 +1076,22 @@
     border: none;
     color: #fff;
 
-     &:enabled {
+    &:enabled {
       background-color: #f55800;
     }
-  
+
     &:hover {
       background-color: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
       margin-bottom: -0.4%;
     }
-  
+
     &:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     &:active {
       background-color: #e05304;
       color: #fff;
@@ -1128,7 +1123,7 @@
       url(ecommerce.png);
     background-size: cover;
   }
-  
+
   .project_container_2 {
     display: flex;
     flex-direction: column;
@@ -1145,7 +1140,7 @@
       url(university.png);
     background-size: cover;
   }
-  
+
   .project_container_3 {
     display: flex;
     flex-direction: column;
@@ -1162,7 +1157,7 @@
       url(company.jpg);
     background-size: cover;
   }
-  
+
   .project_container_4 {
     display: flex;
     flex-direction: column;
@@ -1179,7 +1174,7 @@
       url(business.jpg);
     background-size: cover;
   }
-  
+
   .project_container_5 {
     display: flex;
     flex-direction: column;
@@ -1196,7 +1191,7 @@
       url(banking.jpg);
     background-size: cover;
   }
-  
+
   .project_container_6 {
     display: flex;
     flex-direction: column;
@@ -1213,7 +1208,7 @@
       url(trading.jpg);
     background-size: cover;
   }
-  
+
   .project_title {
     font-family: 'Crete Round', sans-serif;
     font-size: 2rem;
@@ -1226,7 +1221,7 @@
     text-align: left;
     color: #fff;
   }
-  
+
   .project_description {
     font-family: 'Inter', serif;
     font-size: 0.9rem;
@@ -1238,7 +1233,7 @@
     text-align: left;
     color: #fff;
   }
-  
+
   .project_skills {
     width: 15.4rem;
     height: 2.5rem;
@@ -1248,12 +1243,12 @@
     justify-content: space-between;
     list-style: none;
   }
-  
+
   .skill_container {
     padding: 0.6rem 0.75rem;
     background: rgba(255, 255, 255, 0.24);
   }
-  
+
   .skill {
     font-family: 'Inter', serif;
     font-size: 0.9rem;
@@ -1263,7 +1258,7 @@
     text-align: left;
     color: #fff;
   }
-  
+
   .project_link {
     width: 20.4rem;
     height: 3rem;
@@ -1271,23 +1266,23 @@
     top: 0;
     border: none;
     color: #fff;
-  
+
     &:enabled {
       background-color: #f55800;
     }
-  
+
     &:hover {
       background-color: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
       margin-bottom: -0.4%;
     }
-  
+
     &:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     &:active {
       background-color: #e05304;
       color: #fff;
@@ -1302,25 +1297,25 @@
     background: #1c1a19;
   }
 
-  .about_me_container{
+  .about_me_container {
     display: flex;
     flex-direction: column;
     gap: 1rem;
     width: 35.4rem;
-    height:auto;
+    height: auto;
   }
 
   .bio_header {
-    width:20rem;
+    width: 20rem;
     font-family: 'Crete Round', sans-serif;
     font-size: 2.8rem;
     font-weight: 200;
     line-height: 5.1rem;
     letter-spacing: 0.07em;
     text-align: left;
-    color: #F55800;
+    color: #f55800;
   }
-  
+
   .bio {
     margin-top: 1.5rem;
     font-family: 'Inter', sans-serif;
@@ -1334,7 +1329,7 @@
   .resume_link {
     text-decoration: none;
   }
-  
+
   .resume_button {
     margin-top: 1.5rem;
     display: flex;
@@ -1344,28 +1339,28 @@
     border: none;
     background: #ff6b00;
     color: #fff;
-  
+
     &:enabled {
       background-color: #f55800;
     }
-  
+
     &:hover {
       background-color: #fff5e1;
       border: 0.06rem solid #f55800;
       color: #f55800;
     }
-  
+
     &:disabled {
       background: #f4f1f0;
       color: #5b5957;
     }
-  
+
     &:active {
       background-color: #e05304;
       color: #fff;
     }
   }
-  
+
   .link_text {
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -1392,7 +1387,7 @@
     background-image: url(desktop_about_me_illustration.png);
     background-repeat: no-repeat;
     top: 8.1rem;
-    right:0px;
+    right: 0;
   }
 
   .knowledge {
@@ -1407,9 +1402,9 @@
   }
 
   .category_style {
-    display:flex;
-    width:282px;
-    height:40px;
+    display: flex;
+    width: 282px;
+    height: 40px;
     align-items: center;
     justify-content: left;
   }
@@ -1460,16 +1455,16 @@
   }
 
   .contact_me {
-    display:flex;
-    gap:24px;
+    display: flex;
+    gap: 24px;
     width: 1160px;
     padding: 130px 140px;
     background-color: #fff;
   }
 
   .contact-bio {
-    display:inline-block;
-    margin-top:0rem;
+    display: inline-block;
+    margin-top: 0;
     width: 28.5rem;
     height: 330px;
     font-family: 'Inter', sans-serif;
@@ -1583,5 +1578,3 @@
     width: 200px;
   }
 }
-
-
