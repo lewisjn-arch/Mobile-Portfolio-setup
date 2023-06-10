@@ -81,9 +81,10 @@
     from {
       transform: translateX(-100%);
     }
+
     to {
       transform: translateX(0);
-    } 
+    }
   }
 
   .subject_text {
@@ -1427,7 +1428,7 @@
     font-size: 17px;
     line-height: 24px;
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, 0.55, 4);
+    transition-timing-function: cubic-bezier(0.75, -3, 0.55, 4);
 
     &:enabled {
       background-color: #f55800;
