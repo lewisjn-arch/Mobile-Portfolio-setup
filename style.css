@@ -1245,7 +1245,8 @@
     background: #ff6b00;
     color: #fff;
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, 0.55, 4);
+    transition-timing-function: cubic-bezier(0.75, -3, 0.55, 4);
+
     &:enabled {
       background-color: #f55800;
     }
