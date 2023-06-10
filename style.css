@@ -1430,7 +1430,6 @@
     font-size: 17px;
     line-height: 24px;
     transition: transform 500ms;
-    feature-transitions_animations
     transition-timing-function: cubic-bezier(0.75, -3, 0.55, 4);
 
     &:enabled {
