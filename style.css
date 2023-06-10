@@ -62,16 +62,29 @@
   }
 
   .main_text {
-    width: 20.4rem;
-    height: 7.75rem;
     flex: none;
     order: 0;
     flex-grow: 0;
     font-family: 'Crete Round', serif;
-    font-weight: 400;
-    font-size: 3.5rem;
-    line-height: 4rem;
+    font-weight: 00;
+    font-size: 4.5rem;
+    line-height: 5.1rem;
+    margin: 0;
     color: #ff6b00;
+    width: 60%;
+    animation-name: slideright;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+
+  @keyframes slideright {
+    from {
+      transform: translateX(-100%);
+    }
+
+    to {
+      transform: translateX(0);
+    }
   }
 
   .subject_text {
@@ -1232,7 +1245,8 @@
     background: #ff6b00;
     color: #fff;
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, 0.55, 4);
+    transition-timing-function: cubic-bezier(0.75, -3, 0.55, 4);
+
     &:enabled {
       background-color: #f55800;
     }
@@ -1417,7 +1431,7 @@
     font-size: 17px;
     line-height: 24px;
     transition: transform 500ms;
-    transition-timing-function: cubic-bezier(.75, -3, 0.55, 4);
+    transition-timing-function: cubic-bezier(0.75, -3, 0.55, 4);
 
     &:enabled {
       background-color: #f55800;
