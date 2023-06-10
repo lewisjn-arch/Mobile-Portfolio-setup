@@ -15,22 +15,30 @@
 </head>
 <body>
     <header class="header">
-        <a class="nav_bar_logo" href="#">LEWIS</a>
         <nav class="app_bar_container">
-            <img class="burger_menu" src="Icons\burger_menu.png" alt="burger menu">
+            <a class="nav_bar_logo" href="#">LEWIS</a>
+            <ul class="nav_menu">
+                <li><a href="#" class="nav_links">Portfolio</a></li>
+                <li><a href="#" class="nav_links">About</a></li>
+                <li><a href="#" class="nav_links">Contact</a></li>
+                <li><a href="#" class="nav_links"><img src="Icons\mail.png"></a></li>
+            </ul>
         </nav>
+            <img src="Icons\burger_menu.png"  class="burger_menu">
     </header>
     
-    <section class="headline">
-        <div class="main_text_container">
-            <h1 class="main_text">Hey There. I'm Lewis.</h1>
-        </div>
-        <div class="subject_text_container">
-            <h3 class="subject_text">I'm a Software Developer</h3>
-        </div>
-        <div class="description_text_container">
-            <p class="description_text">I can help you build a product, feature or website. Look through 
-            some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+    <section class="page_container">
+        <div class="headline">
+            <div class="main_text_container">
+                <h1 class="main_text">Hey There. I'm Lewis.</h1>
+            </div>
+            <div class="subject_text_container">
+                <h3 class="subject_text">I'm a Software Developer</h3>
+            </div>
+            <div class="description_text_container">
+                <p class="description_text">I can help you build a product, feature or website. Look through 
+                some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+            </div>
         </div>
         <ul class="social_media">
             <li id="github_icon"><a href="https://github.com/lewisjn-arch"><img src="Icons\Github.png" alt="Github link"></a></li>
@@ -39,152 +47,158 @@
             <li id="twitter_icon"><a href="https://twitter.com/lhinga75"><img src="Icons\Twitter.png" alt="Twitter link"></a></li>
             <li id="M_icon"><a href="#"><img src="Icons\Medium.png" alt="M-symbol link"></a></li>
         </ul>
-        <div class="illustration"></div>
     </section>
     <section class="portfolio">
-        <div class="Portfolio_title_container">
+        <div class="recent_works">
             <h2 class="portfolio_title">My Recent Works</h2>
+            <div class="separation">
+                <hr>
+            </div>
         </div>
-        <div class="separation">
-            <hr>
+        <div class="feature_project">
+            <div class="feature-project_preview_image"></div>
+            <div class="feature_project_info">
+                <div class="feature-project_title">
+                    <h3>Architecture</h3>
+                </div>
+                <div class="feature-project_description_container">
+                    <p class="feature-project_description">A daily selection of privately personalized reads; no 
+                    accounts or sign-ups required. This has been the industry's standard dummy text ever since the 1500s, 
+                    when an unknown printer took a standard dummy text.</p>
+                </div>
+                <ul class="feature-project_skills">
+                    <li class="feature-skill_container"><span class="feature-skill">CSS</span></li>
+                    <li class="feature-skill_container"><span class="feature-skill">HTML</span></li>
+                    <li class="feature-skill_container"><span class="feature-skill">Bootstrap</span></li>
+                    <li class="feature-skill_container"><span class="feature-skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="feature-project_link">
+                    <span class="feature-link_text">See project</span>
+                </button>
+            </div>
         </div>
-        <div class="feature-project_preview_image"></div>
-        <div class="feature-project_title">
-            <h3>Architecture</h3>
-        </div>
-        <div class="feature-project_description_container">
-            <p class="feature-project_description">A daily selection of privately personalized reads; no 
-            accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, 
-            when an unknown printer took a standard dummy text.</p>
-        </div>
-        <ul class="feature-project_skills">
-            <li class="feature-skill_container"><span class="feature-skill">CSS</span></li>
-            <li class="feature-skill_container"><span class="feature-skill">HTML</span></li>
-            <li class="feature-skill_container"><span class="feature-skill">Bootstrap</span></li>
-            <li class="feature-skill_container"><span class="feature-skill">Ruby</span></li>
-        </ul>
-            <button type="button" class="feature-project_link">
-                <span class="feature-link_text">See project</span>
-            </button>
-        <div class="project_container_1">
-            <div class="project_title">
-                <h3>E-commerce Website</h3>
+        <div class="portfolio_thumbnails">
+            <div class="project_container_1">
+                <div class="project_title">
+                    <h3>E-commerce Website</h3>
+                </div>
+                <div class="project_description">
+                    <p>A daily selection of privately personalized reads; 
+                    no accounts or sign-ups required. Has been the 
+                    industry's standard.</p>
+                </div>
+                <div class="project_image"></div>
+                <ul class="project_skills">
+                    <li class="skill_container"><span class="skill">HTML</span></li>
+                    <li class="skill_container"><span class="skill">Bootstrap</span></li>
+                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="project_link"><span class="link_text">See project</span></button>
             </div>
-            <div class="project_description">
-                <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required. Has been the 
-                industry's standard.</p>
+            <div class="project_container_2">
+                <div class="project_title">
+                    <h3>University Portal</h3>
+                </div>
+                <div class="project_description">
+                    <p>A daily selection of privately personalized reads; 
+                    no accounts or sign-ups required. Has been the 
+                    industry's standard.</p>
+                </div>
+                <div class="project_image"></div>
+                <ul class="project_skills">
+                    <li class="skill_container"><span class="skill">HTML</span></li>
+                    <li class="skill_container"><span class="skill">Bootstrap</span></li>
+                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="project_link"><span class="link_text">See project</span></button>
             </div>
-            <div class="project_image"></div>
-            <ul class="project_skills">
-                <li class="skill_container"><span class="skill">HTML</span></li>
-                <li class="skill_container"><span class="skill">Bootstrap</span></li>
-                <li class="skill_container"><span class="skill">Ruby</span></li>
-            </ul>
-            <button type="button" class="project_link"><span class="link_text">See project</span></button>
-        </div>
-        <div class="project_container_2">
-            <div class="project_title">
-                <h3>University Portal</h3>
+            <div class="project_container_3">
+                <div class="project_title">
+                    <h3>Company Website</h3>
+                </div>
+                <div class="project_description">
+                    <p>A daily selection of privately personalized reads; 
+                    no accounts or sign-ups required. Has been the 
+                    industry's standard.</p>
+                </div>
+                <div class="project_image"></div>
+                <ul class="project_skills">
+                    <li class="skill_container"><span class="skill">HTML</span></li>
+                    <li class="skill_container"><span class="skill">Bootstrap</h4></li>
+                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="project_link"><span class="link_text">See project</span></button>
             </div>
-            <div class="project_description">
-                <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required. Has been the 
-                industry's standard.</p>
+            <div class="project_container_4">
+                <div class="project_title">
+                    <h3>Business Website</h3>
+                </div>
+                <div class="project_description">
+                    <p>A daily selection of privately personalized reads; 
+                    no accounts or sign-ups required. Has been the 
+                    industry's standard.</p>
+                </div>
+                <div class="project_image"></div>
+                <ul class="project_skills">
+                    <li class="skill_container"><span class="skill">HTML</span></li>
+                    <li class="skill_container"><span class="skill">Bootstrap</span></li>
+                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="project_link"><span class="link_text">See project</span></button>
             </div>
-            <div class="project_image"></div>
-            <ul class="project_skills">
-                <li class="skill_container"><span class="skill">HTML</span></li>
-                <li class="skill_container"><span class="skill">Bootstrap</span></li>
-                <li class="skill_container"><span class="skill">Ruby</span></li>
-            </ul>
-            <button type="button" class="project_link"><span class="link_text">See project</span></button>
-        </div>
-        <div class="project_container_3">
-            <div class="project_title">
-                <h3>Company Website</h3>
+            <div class="project_container_5">
+                <div class="project_title">
+                    <h3>Bank Website</h3>
+                </div>
+                <div class="project_description">
+                    <p>A daily selection of privately personalized reads; 
+                    no accounts or sign-ups required. Has been the 
+                    industry's standard.</p>
+                </div>
+                <div class="project_image"></div>
+                <ul class="project_skills">
+                    <li class="skill_container"><span class="skill">HTML</span></li>
+                    <li class="skill_container"><span class="skill">Bootstrap</span></li>
+                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="project_link"><span class="link_text">See project</span></button>
             </div>
-            <div class="project_description">
-                <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required. Has been the 
-                industry's standard.</p>
+            <div class="project_container_6">
+                <div class="project_title">
+                    <h3>Trading Website</h3>
+                </div>
+                <div class="project_description">
+                    <p>A daily selection of privately personalized reads; 
+                    no accounts or sign-ups required. Has been the 
+                    industry's standard.</p>
+                </div>
+                <div class="project_image"></div>
+                <ul class="project_skills">
+                    <li class="skill_container"><span class="skill">HTML</span></li>
+                    <li class="skill_container"><span class="skill">Bootstrap</span></li>
+                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                </ul>
+                <button type="button" class="project_link"><spsn class="link_text">See project</span></button>
             </div>
-            <div class="project_image"></div>
-            <ul class="project_skills">
-                <li class="skill_container"><span class="skill">HTML</span></li>
-                <li class="skill_container"><span class="skill">Bootstrap</h4></li>
-                <li class="skill_container"><span class="skill">Ruby</span></li>
-            </ul>
-            <button type="button" class="project_link"><span class="link_text">See project</span></button>
-        </div>
-        <div class="project_container_4">
-            <div class="project_title">
-                <h3>Business Website</h3>
-            </div>
-            <div class="project_description">
-                <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required. Has been the 
-                industry's standard.</p>
-            </div>
-            <div class="project_image"></div>
-            <ul class="project_skills">
-                <li class="skill_container"><span class="skill">HTML</span></li>
-                <li class="skill_container"><span class="skill">Bootstrap</span></li>
-                <li class="skill_container"><span class="skill">Ruby</span></li>
-            </ul>
-            <button type="button" class="project_link"><span class="link_text">See project</span></button>
-        </div>
-        <div class="project_container_5">
-            <div class="project_title">
-                <h3>Bank Website</h3>
-            </div>
-            <div class="project_description">
-                <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required. Has been the 
-                industry's standard.</p>
-            </div>
-            <div class="project_image"></div>
-            <ul class="project_skills">
-                <li class="skill_container"><span class="skill">HTML</span></li>
-                <li class="skill_container"><span class="skill">Bootstrap</span></li>
-                <li class="skill_container"><span class="skill">Ruby</span></li>
-            </ul>
-            <button type="button" class="project_link"><span class="link_text">See project</span></button>
-        </div>
-        <div class="project_container_6">
-            <div class="project_title">
-                <h3>Trading Website</h3>
-            </div>
-            <div class="project_description">
-                <p>A daily selection of privately personalized reads; 
-                no accounts or sign-ups required. Has been the 
-                industry's standard.</p>
-            </div>
-            <div class="project_image"></div>
-            <ul class="project_skills">
-                <li class="skill_container"><span class="skill">HTML</span></li>
-                <li class="skill_container"><span class="skill">Bootstrap</span></li>
-                <li class="skill_container"><span class="skill">Ruby</span></li>
-            </ul>
-            <button type="button" class="project_link"><spsn class="link_text">See project</span></button>
-        </div>
+
+        </div>  
     </section>
     <section class="about_me">
-        <div class="bio_header">
-            <h1>About me</h1>
+        <div class="about_me_container">
+            <div class="bio_header">
+                <h2>About me</h2>
+            </div>
+            <div class="bio">
+                <p>Hello I'm a software developer! I can help you build a product , feature or website 
+                Look through some of my work and experience! If you like what you see and have a 
+                project you need coded, don't hesitate to contact me.</p>
+            </div>
+            <a href="#" class="resume_link">
+                <button type="button" class="resume_button">
+                    <span class="link_text">Get my resume</span>
+                </button>
+            </a>
         </div>
-        <div class="bio">
-            <p>Hello I'm a software developer! I can help you build a product , feature or website 
-            Look through some of my work and experience! If you like what you see and have a 
-            project you need coded, don't hesitate to contact me.</p>
-        </div>
-
-        <a href="#" class="resume_link">
-            <button type="button" class="resume_button">
-                <span class="link_text">Get my resume</span>
-            </button>
-        </a>
-        <div class="about_me_illustration"></div>
         <div class="separation_line">
             <hr>
         </div>
@@ -224,28 +238,30 @@
         
     </section>
     <section class="contact_me">
+        <h3 class="contact-bio">
+            I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
+        </h3>
         <form action="https://formspree.io/f/xwkjdnzq" method="post" class="contact_me_form">
-            <h3 class="contact-bio">
-                I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-            </h3>
             <input type="text" name="name" placeholder="Full Name" id="name-id" minlength="4" maxlength="30" required>
             <div class="seperation_line_1"></div>
             <input type="email" name="email" placeholder="Email address" id="email-id" required>
             <div class="seperation_line"></div>
             <textarea name="text-area" placeholder="Write me something..." id="text-area" rows="5" cols="30" maxlength="500" required></textarea>
             <input type="submit" name="Get in touch" id="submit" value="Get in touch" placeholder="Get in touch">
-            <div class="seperate_line_2"></div>
         </form>
     </section>
-    <footer class="footer">
-        <ul class="contact-list">
-            <li><a href="https://github.com"><img src="Footer Icons\git-hub.svg" alt="profile-images"></a></li>
-            <li><a href="https://linkedIn-in.com"><img src="Footer Icons\linked-in.svg" alt="profile-images"></a></li>
-            <li><a href="https://angelist.com"><img src="Footer Icons\angelist-ang.svg" alt="profile-images"></a></li>
-            <li><a href="https://twitter.com"><img src="Footer Icons\tweet.svg" alt="profile-images"></a></li>
-            <li><a href="https://medium.com"><img src="Footer Icons\med.svg" alt="profile-images"></a></li>
-        </ul>
-    </footer>
+    <div class="seperate_line_2"></div>
+    <section>
+        <footer class="footer">
+            <ul class="contact-list">
+                <li><a href="https://github.com"><img src="Footer Icons\git-hub.svg" alt="profile-images"></a></li>
+                <li><a href="https://linkedIn-in.com"><img src="Footer Icons\linked-in.svg" alt="profile-images"></a></li>
+                <li><a href="https://angelist.com"><img src="Footer Icons\angelist-ang.svg" alt="profile-images"></a></li>
+                <li><a href="https://twitter.com"><img src="Footer Icons\tweet.svg" alt="profile-images"></a></li>
+                <li><a href="https://medium.com"><img src="Footer Icons\med.svg" alt="profile-images"></a></li>
+            </ul>
+        </footer>
+    </section>
 </body>
 </html>
 
