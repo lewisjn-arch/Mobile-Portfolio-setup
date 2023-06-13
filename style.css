@@ -46,7 +46,7 @@
     width: 100vw;
     height: 100vh;
     background: #1c1a19;
-    background-image: url("Assets/Images/illustration.png");
+    background-image: url("illustration.png");
     background-repeat: no-repeat;
     background-size: 9.2rem 22.8rem;
     background-position-x: right;
@@ -155,7 +155,7 @@
   }
 
   .feature-project_preview_image {
-    background-image: url(Assets\Images\Architectural.jpg);
+    background-image: url("Architectural.jpg");
     background-size: cover;
     height: 14.8rem;
     width: 100%;
@@ -260,7 +260,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\ecommerce.png);
+      url("ecommerce.png");
     background-size: cover;
   }
 
@@ -277,7 +277,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\university.png);
+      url(university.png);
     background-size: cover;
   }
 
@@ -294,7 +294,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\company.jpg);
+      url(company.jpg);
     background-size: cover;
   }
 
@@ -311,7 +311,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\business.jpg);
+      url(business.jpg);
     background-size: cover;
   }
 
@@ -328,7 +328,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\banking.jpg);
+      url(banking.jpg);
     background-size: cover;
   }
 
@@ -345,7 +345,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\trading.jpg);
+      url(trading.jpg);
     background-size: cover;
   }
 
@@ -437,7 +437,7 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
     padding-bottom: 3.1rem;
-    background-image: url(Assets\Images\resume_illustration.png);
+    background-image: url(resume_illustration.png);
     background-repeat: no-repeat;
     background-size: 10rem 15.6rem;
     background-position-x: right;
@@ -791,7 +791,7 @@
     top: 58px;
     padding: 200px 140px;
     background: #1c1a19;
-    background-image: url("Assets/Images/Illustration-header.png");
+    background-image: url("Illustration-header.png");
     background-repeat: no-repeat;
     background-size: 41rem 50rem;
     background-position-x: right;
@@ -914,7 +914,7 @@
 
   .feature-project_preview_image {
     display: inline-block;
-    background-image: url(Assets\Images\Architectural.jpg);
+    background-image: url(Architectural.jpg);
     background-size: cover;
     height: 100%;
     width: 58.9%;
@@ -1021,7 +1021,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\ecommerce.png);
+      url(ecommerce.png);
     background-size: cover;
   }
 
@@ -1038,7 +1038,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\university.png);
+      url(university.png);
     background-size: cover;
   }
 
@@ -1055,7 +1055,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\company.jpg);
+      url(company.jpg);
     background-size: cover;
   }
 
@@ -1072,7 +1072,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\business.jpg);
+      url(business.jpg);
     background-size: cover;
   }
 
@@ -1089,7 +1089,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\banking.jpg);
+      url(banking.jpg);
     background-size: cover;
   }
 
@@ -1106,7 +1106,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(Assets\Images\trading.jpg);
+      url(trading.jpg);
     background-size: cover;
   }
 
@@ -1195,7 +1195,7 @@
     margin: auto;
     padding: 130px 140px;
     background: #1c1a19;
-    background-image: url(Assets\Images\desktop_about_me_illustration.png);
+    background-image: url(desktop_about_me_illustration.png);
     background-repeat: no-repeat;
     background-size: 36.6rem 22.1rem;
     background-position-x: right;
