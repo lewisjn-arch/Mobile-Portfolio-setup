@@ -39,6 +39,16 @@
     border-radius: 0;
   }
 
+  /* mobile-menu */
+  #menu-close {
+    float: right;
+    background: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    display: none;
+  }
+
   .page_container {
     align-items: flex-start;
     position: relative;
