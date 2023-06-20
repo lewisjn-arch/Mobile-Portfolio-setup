@@ -12,19 +12,35 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>LEWIS HINGA</title>
+
 </head>
 <body>
     <header class="header">
-        <nav class="app_bar_container">
+        <nav class="nav_bar_container">
             <a class="nav_bar_logo" href="#">LEWIS</a>
             <ul class="nav_menu">
-                <li><a href="#" class="nav_links">Portfolio</a></li>
-                <li><a href="#" class="nav_links">About</a></li>
-                <li><a href="#" class="nav_links">Contact</a></li>
-                <li><a href="#" class="nav_links"><img src="Assets\Icons\mail.png"></a></li>
+                <li class="nav_item">
+                    <a href="#portfolio-section" class="nav_links">Portfolio</a>
+                </li>
+                <div class="menu_line"></div>
+                <li class="nav_item">
+                    <a href="#about_me-section" class="nav_links">About</a>
+                </li>
+                <div class="menu_line"></div>
+                <li class="nav_item">
+                    <a href="#contact_me-section" class="nav_links">Contact</a>
+                </li>
+                <div class="menu_line"></div>
+                <li class="nav_item">
+                    <a href="#" class="nav_links"><img id="mail_icon" src="Assets\Icons\mail.png"></a>
+                </li>
             </ul>
+            <div class="burger_menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
         </nav>
-            <img src="Assets\Icons\burger_menu.png"  class="burger_menu">
     </header>
     
     <section class="page_container">
@@ -48,7 +64,8 @@
             <li id="M_icon"><a href="#"><img src="Assets\Icons\Medium.png" alt="M-symbol link"></a></li>
         </ul>
     </section>
-    <section class="portfolio">
+
+    <section class="portfolio" id="portfolio-section">
         <div class="recent_works">
             <h2 class="portfolio_title">My Recent Works</h2>
             <div class="separation">
@@ -183,7 +200,8 @@
 
         </div>  
     </section>
-    <section class="about_me">
+
+    <section class="about_me" id="about_me-section">
         <div class="about_me_container">
             <div class="bio_header">
                 <h2>About me</h2>
@@ -234,10 +252,10 @@
                 <li class="competency">API Design</li>
                 <li class="competency">Web Development</li>
             </ul>
-        </div>
-        
+        </div>     
     </section>
-    <section class="contact_me">
+
+    <section class="contact_me" id="contact_me-section">
         <h3 class="contact-bio">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </h3>
@@ -250,7 +268,9 @@
             <input type="submit" name="Get in touch" id="submit" value="Get in touch" placeholder="Get in touch">
         </form>
     </section>
+
     <div class="seperate_line_2"></div>
+    
     <section>
         <footer class="footer">
             <ul class="contact-list">
@@ -262,6 +282,7 @@
             </ul>
         </footer>
     </section>
+    <script src="index.js"></script>
 </body>
 </html>
 
