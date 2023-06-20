@@ -20,6 +20,11 @@
     align-items: center;
   }
 
+  .nav_bar_container.active {
+    display: flex;
+    justify-content: flex-end;
+  }
+
   .nav_bar_logo {
     text-decoration: none;
     font-family: 'Roboto', sans-serif;
@@ -31,6 +36,11 @@
     &:hover {
       color: #ff6b00;
     }
+  }
+
+  .nav_bar_logo.active {
+    display: none;
+    transition: 0.7s ease-in-out;
   }
 
   .nav_links {
@@ -75,6 +85,7 @@
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   }
+
 
   .burger_menu.active .bar:nth-child(2) {
     opacity: 0;
