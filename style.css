@@ -7,7 +7,6 @@
     box-sizing: border-box;
   }
 
-
   .nav_bar_container {
     position: fixed;
     top: 0;
@@ -29,10 +28,11 @@
     color: #fff;
     transition: 0.5s ease-in-out;
 
-    &:hover{
-      color:#ff6b00
+    &:hover {
+      color: #ff6b00;
     }
   }
+
   .nav_links {
     font-family: 'Inter', serif;
     font-weight: 700;
@@ -40,18 +40,18 @@
     margin-left: 40px;
     line-height: 44px;
     text-decoration: none;
-    color: #FFF5E1;
+    color: #fff5e1;
     transition: 0.5s ease-in-out;
 
-      &:hover{
-        color:#ff6b00
-      }
+    &:hover {
+      color: #ff6b00;
+    }
   }
 
   .menu_line {
     width: 87.2%;
     margin: 0 auto;
-    border: 0.01rem solid #6F6C6B;
+    border: 0.01rem solid #6f6c6b;
     margin-top: 0.5rem;
     margin-bottom: 1.2rem;
     transition: 0.5s ease-in-out;
@@ -66,7 +66,7 @@
   }
 
   .bar {
-    display:block;
+    display: block;
     width: 1.8rem;
     height: 3px;
     border-radius: 5px;
@@ -88,17 +88,6 @@
     transform: translateY(-8px) rotate(-45deg);
   }
 
-  .bar {
-    display:block;
-    width: 1.8rem;
-    height: 3px;
-    border-radius: 5px;
-    margin: 5px auto;
-    background-color: #fff;
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  }
-
   .nav_menu {
     position: fixed;
     display: flex;
@@ -108,7 +97,7 @@
     padding: 3rem 0;
     width: 100vw;
     height: 100vh;
-    background: #3C3A39;
+    background: #3c3a39;
     transition: 0.5s;
   }
 
@@ -143,7 +132,7 @@
     order: 0;
     flex-grow: 0;
     font-family: 'Crete Round', serif;
-    font-weight: 00;
+    font-weight: 700;
     font-size: 3.5rem;
     line-height: 5.1rem;
     margin: 0;
@@ -224,10 +213,10 @@
   }
 
   .separation {
-    width: 100% auto;
+    width: 100%;
     margin-top: 2rem;
     margin-bottom: 3.1rem;
-    color: 0.12rem solid #212121;
+    color: #100f0f;
   }
 
   .feature-project_preview_image {
@@ -598,7 +587,7 @@
   .separation_line {
     position: relative;
     margin-top: 13rem;
-    color: solid #fff;
+    color: #f1eaea;
   }
 
   .knowledge {
@@ -830,9 +819,9 @@
     color: #fff;
     transition: 0.5s ease-in-out;
 
-      &:hover{
-        color:#ff6b00
-      }
+    &:hover {
+      color: #ff6b00;
+    }
   }
 
   .burger_menu {
@@ -858,9 +847,9 @@
     text-align: center;
     transition: 0.5s ease-in-out;
 
-      &:hover{
-        color:#ff6b00
-      }
+    &:hover {
+      color: #ff6b00;
+    }
   }
 
   .page_container {
@@ -890,7 +879,7 @@
     order: 0;
     flex-grow: 0;
     font-family: 'Crete Round', serif;
-    font-weight: 00;
+    font-weight: 700;
     font-size: 4.5rem;
     line-height: 5.1rem;
     margin: 0;
@@ -981,7 +970,7 @@
   .separation {
     width: 750px;
     margin-top: 32px;
-    color: 1px solid #212121;
+    color: #121010;
   }
 
   .feature_project {
@@ -1361,7 +1350,7 @@
     width: 100%;
     position: relative;
     margin-top: 8.75rem;
-    color: solid #fff;
+    color: #f7f4f4;
   }
 
   .knowledge {
