@@ -353,7 +353,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(university.png);
+      url('university.png');
     background-size: cover;
   }
 
@@ -370,7 +370,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(company.jpg);
+      url('company.jpg');
     background-size: cover;
   }
 
@@ -387,7 +387,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(business.jpg);
+      url('business.jpg');
     background-size: cover;
   }
 
@@ -404,7 +404,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(banking.jpg);
+      url('banking.jpg');
     background-size: cover;
   }
 
@@ -421,7 +421,7 @@
         rgba(38, 38, 38, 0) 0.75%,
         rgba(38, 38, 38, 0.9) 61.94%
       ),
-      url(trading.jpg);
+      url('trading.jpg');
     background-size: cover;
   }
 
