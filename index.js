@@ -117,3 +117,12 @@ const projects = [
     sourceCode: '#',
   },
 ];
+
+funtion seeProject(index) {
+
+};
+
+
+function closePopup() {
+
+};
