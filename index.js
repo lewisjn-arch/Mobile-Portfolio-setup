@@ -3,7 +3,6 @@ let navMenu = document.querySelector('.nav_menu');
 let navLogo = document.querySelector('.nav_bar_logo');
 let navBar = document.querySelector('.nav_bar_container');
 let mainPage = document.querySelector('.page_container');
-let header = document.querySelector('.nav_bar_container');
 let bio = document.querySelector('.about_me');
 
 burgerMenu.addEventListener('click', () => {
@@ -151,6 +150,13 @@ popup.innerHTML  =
 //       </button>
 //   </div>';
 
+function closePopup() {
+  popup.remove();
+  navBar.style.filter = 'blur(0)';
+  mainPage.style.filter = 'blur(0)';
+  portfolio.style.filter = 'blur(0)';
+  bio.style.filter = 'blur(0)';
+};
 
 function seeProject(index) {
   const [name1, name2, name3, name4, name5, name6, name7] =
@@ -168,13 +174,23 @@ function seeProject(index) {
   const {
     name, description, technologies, projectImage, liveVersion, sourceCode, 
   } = projects[index];
-};
+
+  const closeButton = document.createElement('button');
+  closeButton.className = 'close_button';
+  closeButton.addEventListener('click', closePopup);
+  popup.appendChild(closeButton);
+  const popupTitle = document.createElement('div');
+  popupTitle.innerHTML = '<h2>${title}<h2>';
+  const techSkills = document.createElement('div');
+  techSkills.className = 'popup_skills';
+  const describeProject = document.createElement('div');
+  describeProject.className = 'popup_description';
+  const sourceLinks = document.createElement ('div');
+  sourceLinks.className = 'popup_button_container';
+  const liveSource = document.createElement('div');
+  const sourceRepo = document.createElement('div');
 
 
-function closePopup() {
-  popup.remove();
-  header.style.filter = 'blur(0)';
-  mainPage.style.filter = 'blur(0)';
-  portfolio.style.filter = 'blur(0)';
-  bio.style.filter = 'blur(0)';
+  
+  
 };
