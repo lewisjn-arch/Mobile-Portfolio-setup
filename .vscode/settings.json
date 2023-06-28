@@ -1,5 +1,8 @@
 {
     "liveServer.settings.port": 5501,
     "files.autoSaveDelay": 10,
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "githubPullRequests.ignoredPullRequestBranches": [
+        "master"
+    ]
 }
