@@ -10,7 +10,6 @@ burgerMenu.addEventListener('click', () => {
   navBar.classList.toggle('active');
 });
 
-
 document.querySelectorAll('.nav_links').forEach((n) => n.addEventListener('click', () => {
   burgerMenu.classList.remove('active');
   navMenu.classList.remove('active');
