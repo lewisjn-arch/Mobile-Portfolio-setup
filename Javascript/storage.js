@@ -10,3 +10,15 @@ function storeData() {
     };
     localStorage.setItem('formData', JSON.stringify(formData));
 }
+const inputSaved = [nameInput, emailInput, textInput];
+inputSaved.forEach((input) => {
+input.addEventListener('input', storeData);
+});
+
+const savedData = JSON.parse(localStorage.getItem('formData'))
+if(savedData) {
+  nameInput.value = savedData.username;
+  emailInput.value = savedData.email;
+  textInput.value = savedData.text;
+};
+
