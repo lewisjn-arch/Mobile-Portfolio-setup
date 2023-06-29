@@ -19,6 +19,7 @@ function validateName() {
   return true;
 }
 
+
 function validateEmail() {
   const email = document.querySelector('#email-id').value;
 
