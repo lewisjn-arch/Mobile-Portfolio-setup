@@ -778,6 +778,16 @@
     border: 0.06rem solid #dbd8d7;
   }
 
+  .error_m {
+    color: #f00909;
+    display: block;
+  }
+
+  .success_m {
+    color: #3bc456;
+    display: block;
+  }
+
   .footer {
     display: flex;
     justify-content: center;
@@ -1519,7 +1529,7 @@
       background-color: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
-      transform: scale(0.9);
+      transform: scale(1.02);
     }
 
     &:disabled {
@@ -1545,6 +1555,16 @@
     margin: auto;
     align-items: center;
     justify-content: space-around;
+  }
+
+  .error_m {
+    color: #f00909;
+    display: block;
+  }
+
+  .success_m {
+    color: #3bc456;
+    display: block;
   }
 
   .contact-list {
