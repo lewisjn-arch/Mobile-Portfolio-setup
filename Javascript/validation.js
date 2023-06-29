@@ -19,7 +19,6 @@ function validateName() {
   return true;
 }
 
-
 function validateEmail() {
   const email = document.querySelector('#email-id').value;
 
@@ -35,7 +34,7 @@ function validateEmail() {
 
   emailError.innerHTML = '<i class="fa-regular fa-circle-check" style="color: #3bc456;"></i>';
   return true;
-};
+}
 
 function validate() {
   if (!validateName() || !validateEmail()) {
@@ -45,7 +44,7 @@ function validate() {
     return false;
   }
   return true;
-};
+}
 
 function eraseInput() {
   if (!validate()) {
@@ -57,6 +56,6 @@ function eraseInput() {
     setTimeout(() => { emailError.style.display = 'none'; }, 3000);
     textError.innerHTML = 'Tell me something...';
     setTimeout(() => { textError.style.display = 'none'; }, 3000);
-  };
-};
+  }
+}
 document.querySelector('#submit').addEventListener('click', eraseInput);
