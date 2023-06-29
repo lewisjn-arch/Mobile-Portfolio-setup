@@ -34,31 +34,17 @@ function validateEmail() {
 
   emailError.innerHTML = '<i class="fa-regular fa-circle-check" style="color: #3bc456;"></i>';
   return true;
-}
-
-function validateText() {
-  const text = document.querySelector('#text-area').value;
-  const length = 60;
-  const required = length - text.length;
-
-  if (required > 0) {
-    textError.innerHTML = `${required} more characters left`;
-    return false;
-  }
-
-  textError.innerHTML = '<i class="fa-regular fa-circle-check" style="color: #3bc456;"></i>';
-  return true;
-}
+};
 
 function validate() {
-  if (!validateName() || !validateEmail() || !validateText()) {
+  if (!validateName() || !validateEmail()) {
     submitError.style.display = 'block';
     submitError.innerHTML = 'Please fix errors in the required fields!';
     setTimeout(() => { submitError.style.display = 'none'; }, 3000);
     return false;
   }
   return true;
-}
+};
 
 function eraseInput() {
   if (!validate()) {
@@ -70,7 +56,6 @@ function eraseInput() {
     setTimeout(() => { emailError.style.display = 'none'; }, 3000);
     textError.innerHTML = 'Tell me something...';
     setTimeout(() => { textError.style.display = 'none'; }, 3000);
-  }
-}
-
+  };
+};
 document.querySelector('#submit').addEventListener('click', eraseInput);
