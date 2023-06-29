@@ -50,7 +50,7 @@ function validateText() {
   return true;
 }
 
-function validate() { // eslint-disable-line no-unused-vars
+function validate() {
   if (!validateName() || !validateEmail() || !validateText()) {
     submitError.style.display = 'block';
     submitError.innerHTML = 'Please fix errors in the required fields!';
@@ -59,3 +59,12 @@ function validate() { // eslint-disable-line no-unused-vars
   }
   return true;
 }
+
+function eraseInput() {
+  if (!validate()) {
+    const form = document.querySelector('.contact_me_form');
+    form.reset();
+  }
+}
+
+document.querySelector('#submit').addEventListener('click', eraseInput);

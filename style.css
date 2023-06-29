@@ -1529,7 +1529,7 @@
       background-color: #fff5e1;
       border: 1px solid #f55800;
       color: #f55800;
-      transform: scale(0.9);
+      transform: scale(1.02);
     }
 
     &:disabled {
