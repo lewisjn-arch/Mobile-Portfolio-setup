@@ -64,6 +64,12 @@ function eraseInput() {
   if (!validate()) {
     const form = document.querySelector('.contact_me_form');
     form.reset();
+    nameError.innerHTML = 'Write your full name';
+    setTimeout(() => { nameError.style.display = 'none'; }, 3000);
+    emailError.innerHTML = 'Please write a valid email';
+    setTimeout(() => { emailError.style.display = 'none'; }, 3000);
+    textError.innerHTML = 'Tell me something...';
+    setTimeout(() => { textError.style.display = 'none'; }, 3000);
   }
 }
 
