@@ -50,7 +50,7 @@ function validateText() {
   return true;
 }
 
-function validate() {
+function validate() { // eslint-disable-line no-unused-vars
   if (!validateName() || !validateEmail() || !validateText()) {
     submitError.style.display = 'block';
     submitError.innerHTML = 'Please fix errors in the required fields!';

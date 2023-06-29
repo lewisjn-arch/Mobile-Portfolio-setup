@@ -1,8 +1,7 @@
-let burgerMenu = document.querySelector('.burger_menu');
-let navMenu = document.querySelector('.nav_menu');
-let navLogo = document.querySelector('.nav_bar_logo');
-let navBar = document.querySelector('.nav_bar_container');
-
+const burgerMenu = document.querySelector('.burger_menu');
+const navMenu = document.querySelector('.nav_menu');
+const navLogo = document.querySelector('.nav_bar_logo');
+const navBar = document.querySelector('.nav_bar_container');
 
 burgerMenu.addEventListener('click', () => {
   burgerMenu.classList.toggle('active');

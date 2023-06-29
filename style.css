@@ -783,6 +783,11 @@
     display: block;
   }
 
+  .success_m {
+    color: #3bc456;
+    display: block;
+  }
+
   .footer {
     display: flex;
     justify-content: center;
@@ -1554,6 +1559,11 @@
 
   .error_m {
     color: #f00909;
+    display: block;
+  }
+
+  .success_m {
+    color: #3bc456;
     display: block;
   }
 
