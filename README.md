@@ -26,9 +26,14 @@
 # 📖 [Mobile-Portfolio-setup] <a name="about-project"></a>
 
 
-**Mobile-Portfolio-setup** is a html/css project that I have done to teach me how to design and build a simple portfolio website that is responsive.
+**Mobile-Portfolio-setup** is a html/css and JavaScript project that I have done to teach me how to design and build a simple portfolio website that is responsive.
 
-## 🛠 Built With <a name="html"></a>
+## 🛠 Built With 
+<a name="html"></a>
+<a name="CSS"></a>
+<a name="JavaScript"></a>
+
+
 
 ### Tech Stack <a name="(FRONT-END)"></a>
 
@@ -91,7 +96,7 @@ This project does not need installation. It automatically runs on the web browse
 ### Usage
 
 To run the project, execute the following command:
-You need to double-click the index.html file.
+Open the index.html file with Live Server.
 
 ### Run tests
 
