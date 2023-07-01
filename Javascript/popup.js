@@ -85,9 +85,7 @@ const projects = [
   },
 ]
 
-// const portfolio = document.querySelector('.portfolio')
 const thumbnailContainer = document.querySelector('.portfolio_thumbnails');
-// portfolio.appendChild(thumbnailContainer);
 
 const displayData = () => {
     projects.map((projectData) => {
@@ -95,19 +93,25 @@ const displayData = () => {
       projectContainer.className = 'project_container';
       projectContainer.innerHTML = `
                                 <div class="project_title">
-                                    <h3>name</h3>
+                                    <h3>${projectData.title}</h3>
                                 </div>
                                 <div class="project_description">
-                                    <p>description</p>
+                                    <p>${projectData.previewDescription}</p>
                                 </div>
                                 <div class="project_image"></div>
                                 <ul class="project_skills">
-                                    <li class="skill_container"><span class="skill">HTML</span></li>
-                                    <li class="skill_container"><span class="skill">Bootstrap</span></li>
-                                    <li class="skill_container"><span class="skill">Ruby</span></li>
+                                    <li class="skill_container"><span class="skill">${projectData.technologies[0]}</span></li>
+                                    <li class="skill_container"><span class="skill">${projectData.technologies[1]}</span></li>
+                                    <li class="skill_container"><span class="skill">${projectData.technologies[2]}</span></li>
                                 </ul>
                                 <button type="button" class="project_link"><span class="link_text">See project</span></button>
                              `;
+      projectContainer.style.background = `linear-gradient(180.45deg,
+                                                            rgba(38, 38, 38, 0) 0.75%,
+                                                            rgba(38, 38, 38, 0.9) 61.94%
+                                                          ),
+                                                          url('${projectData.projectImage}')`;
+      projectContainer.style.backgroundSize = 'cover';                                                                                                     
       thumbnailContainer.appendChild(projectContainer);
     });
 }
