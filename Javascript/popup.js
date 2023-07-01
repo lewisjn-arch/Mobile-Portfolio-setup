@@ -101,4 +101,4 @@ const projects = [
       liveVersion: '#',
       sourceCode: '#',
     },
-  ]
+  ];
