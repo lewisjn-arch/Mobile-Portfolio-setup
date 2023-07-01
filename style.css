@@ -322,7 +322,7 @@
     letter-spacing: 0.03rem;
   }
 
-  .project_container_1 {
+  .project_container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -1096,7 +1096,7 @@
     letter-spacing: 0.03em;
   }
 
-  .project_container_1 {
+  .project_container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
