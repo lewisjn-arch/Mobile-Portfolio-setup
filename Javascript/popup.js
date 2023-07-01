@@ -2,10 +2,10 @@
 const projects = [
   {
     title: 'E-commerce Website',
-    previewDescription: 
+    previewDescription:
     `A daily selection of privately personalized reads; no accounts or sign-ups required.
     This Has been the industry's standard.`,
-    description_p1:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    description_p1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
     galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
@@ -17,10 +17,10 @@ const projects = [
   },
   {
     title: 'University Portal',
-    previewDescription: 
+    previewDescription:
     `A daily selection of privately personalized reads; no accounts or sign-ups required.
     This Has been the industry's standard.`,
-    description_p1:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    description_p1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
     galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
@@ -32,10 +32,10 @@ const projects = [
   },
   {
     title: 'Company Website',
-    previewDescription: 
+    previewDescription:
     `A daily selection of privately personalized reads; no accounts or sign-ups required.
     This Has been the industry's standard.`,
-    description_p1:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    description_p1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
     galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
@@ -47,10 +47,10 @@ const projects = [
   },
   {
     title: 'Business Website',
-    previewDescription: 
+    previewDescription:
     `A daily selection of privately personalized reads; no accounts or sign-ups required.
     This Has been the industry's standard.`,
-    description_p1:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    description_p1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
     galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
@@ -62,10 +62,10 @@ const projects = [
   },
   {
     title: 'Bank Website',
-    previewDescription: 
+    previewDescription:
     `A daily selection of privately personalized reads; no accounts or sign-ups required.
     This Has been the industry's standard.`,
-    description_p1:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    description_p1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
     galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
@@ -77,10 +77,10 @@ const projects = [
   },
   {
     title: 'Trading Website',
-    previewDescription: 
+    previewDescription:
     `A daily selection of privately personalized reads; no accounts or sign-ups required.
     This Has been the industry's standard.`,
-    description_p1:`Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+    description_p1: `Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a 
     galley of type and scrambled it 1960s.Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
     Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of 
@@ -90,15 +90,15 @@ const projects = [
     liveVersion: 'https://lewisjn-arch.github.io/ArchLewisHinga.github.io/',
     sourceCode: 'https://github.com/lewisjn-arch/Mobile-Portfolio-setup',
   },
-]
+];
 
 const thumbnailContainer = document.querySelector('.portfolio_thumbnails');
 // Dynamic project card content
 const displayData = () => {
-    projects.map((projectData) => {
-      const projectContainer = document.createElement('div');
-      projectContainer.className = 'project_container';
-      projectContainer.innerHTML = `
+  projects.map((projectData) => {
+    const projectContainer = document.createElement('div');
+    projectContainer.className = 'project_container';
+    projectContainer.innerHTML = `
                                 <div class="project_title">
                                     <h3>${projectData.title}</h3>
                                 </div>
@@ -113,25 +113,25 @@ const displayData = () => {
                                 </ul>
                                 <button type="button" class="project_link"><span class="link_text">See project</span></button>
                              `;
-      projectContainer.style.background = `linear-gradient(180.45deg,
+    projectContainer.style.background = `linear-gradient(180.45deg,
                                                             rgba(38, 38, 38, 0) 0.75%,
                                                             rgba(38, 38, 38, 0.9) 61.94%
                                                           ),
                                                           url('${projectData.projectImage}')`;
-      projectContainer.style.backgroundSize = 'cover';                                                                                                     
-      thumbnailContainer.appendChild(projectContainer);
-    });
-}
+    projectContainer.style.backgroundSize = 'cover';
+    thumbnailContainer.appendChild(projectContainer);
+    return true;
+  });
+};
 
 displayData();
 
 const seeProjectButton = document.querySelectorAll('.project_link');
-const Portfolio = document.querySelector('.portfolio');
 
 let i = 0;
 seeProjectButton.forEach((btn) => {
   i += 1;
-  const portfolio = document.querySelector('.portfolio');
+  const navBar = document.querySelector('.nav_bar_container');
   const bio = document.querySelector('.about_me');
   const mainPage = document.querySelector('.page_container');
   const popup = document.createElement('div');
@@ -156,7 +156,6 @@ seeProjectButton.forEach((btn) => {
                    </div>
                </div>
             </div>`;
-            
 
   btn.addEventListener('click', () => {
     navBar.style.display = 'none';
@@ -173,9 +172,3 @@ seeProjectButton.forEach((btn) => {
     });
   });
 });
-
-
-
-
-
-
