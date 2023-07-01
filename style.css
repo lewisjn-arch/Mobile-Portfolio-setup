@@ -329,14 +329,6 @@
     gap: 0.75rem;
     width: 20.4rem;
     height: 24.1rem;
-    background:
-      linear-gradient(
-        180.45deg,
-        rgba(38, 38, 38, 0) 0.75%,
-        rgba(38, 38, 38, 0.9) 61.94%
-      ),
-      url("Assets/Images/ecommerce.png");
-    background-size: cover;
   }
 
   .project_title {
@@ -417,6 +409,126 @@
       background-color: #e05304;
       color: #fff;
     }
+  }
+
+  .popup_window {
+    position: fixed;
+    top: 15px;
+    bottom: 15px;
+    width: 89vw;
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    z-index: 225;
+  }
+
+  .popup_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .popup_title_container > .popup_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color : #172B4D;
+  }
+
+  .languages {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  .texts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border: 0.06rem solid #979493;
+    list-style: none;
+  }
+
+  .popup_content {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .popup_content > img {
+    width: 100%;
+    height: auto;
+    margin: auto;
+  }
+
+  .popup_content > p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344563;
+  }
+
+  .button_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button_container > .popup_button {
+    width: 41.5%;
+    height: 3rem;
+    left: 0;
+    top: 0;
+    border: none;
+    color: #fff;
+
+    &:enabled {
+      background-color: #f55800;
+    }
+
+    &:hover {
+      background-color: #fff5e1;
+      border: 1px solid #f55800;
+      color: #f55800;
+      margin-bottom: -0.4%;
+    }
+
+    &:disabled {
+      background: #f4f1f0;
+      color: #5b5957;
+    }
+
+    &:active {
+      background-color: #e05304;
+      color: #fff;
+    }
+  }
+
+  .popup_button {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+    align-items: center;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
+
   }
 
   .about_me {
@@ -1105,6 +1217,133 @@
       background-color: #e05304;
       color: #fff;
     }
+  }
+
+  .popup_window {
+    position: fixed;
+    top: 10%;
+    width: 80vw;
+    height: 80vh;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    z-index: 225;
+  }
+
+  .popup_title_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+
+  .popup_title_container > .popup_title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+    color : #172B4D;
+  }
+
+  .languages {
+    list-style: none;
+    display: flex;
+    gap: 12px;
+  }
+
+  .texts {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0em;
+    text-align: left;
+    padding: 0.6rem 0.75rem;
+    border: 0.06rem solid #979493;
+    list-style: none;
+  }
+
+  .popup_content {
+    display: flex;
+    gap: 12px;
+    height: 81%;
+    margin-top: 32px;
+  }
+
+  .popup_window > img {
+    display: inline-block;
+    width: 659px;
+    height: 448px;
+  }
+
+  .popup_info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .popup_info > p {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #344563;
+  }
+
+  .button_container {
+    display: inline-block;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .button_container > .popup_button {
+    width: 41.5%;
+    height: 3rem;
+    left: 0;
+    top: 0;
+    border: none;
+    color: #fff;
+
+    &:enabled {
+      background-color: #f55800;
+    }
+
+    &:hover {
+      background-color: #fff5e1;
+      border: 1px solid #f55800;
+      color: #f55800;
+      margin-bottom: -0.4%;
+    }
+
+    &:disabled {
+      background: #f4f1f0;
+      color: #5b5957;
+    }
+
+    &:active {
+      background-color: #e05304;
+      color: #fff;
+    }
+  }
+
+  .popup_button {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 8px;
+    align-items: center;
+    font-family: 'Inter', serif;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    text-align: center;
   }
 
   .about_me {
