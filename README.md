@@ -26,9 +26,14 @@
 # 📖 [Mobile-Portfolio-setup] <a name="about-project"></a>
 
 
-**Mobile-Portfolio-setup** is a html/css project that I have done to teach me how to design and build a simple portfolio website that is responsive.
+**Mobile-Portfolio-setup** is a html/css and JavaScript project that I have done to teach me how to design and build a simple portfolio website that is responsive.
 
-## 🛠 Built With <a name="html"></a>
+## 🛠 Built With 
+<a name="html"></a>
+<a name="CSS"></a>
+<a name="JavaScript"></a>
+
+
 
 ### Tech Stack <a name="(FRONT-END)"></a>
 
@@ -57,7 +62,9 @@
 <!-- LIVE DEMO -->
 ## 🚀 Live Demo <a name="live-demo"></a>
 
- - Not deployed yet
+ - Deployed using github pages.
+ - Here is the <a name="demo" href="https://lewisjn-arch.github.io/ArchLewisHinga.github.io">live demo link</a> of my website!Here is the <a name="demo" href="https://lewisjn-arch.github.io/ArchLewisHinga.github.io">live demo link</a> of my website!
+ - Here is a <a name="walkthrough" href="https://www.loom.com/share/7f86d12a781b4073a3293deca174eadb?sid=3caa8c71-6cac-45a8-bd02-b6b976b35d71">link</a> to the project walkthrough video on loom.
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -89,7 +96,7 @@ This project does not need installation. It automatically runs on the web browse
 ### Usage
 
 To run the project, execute the following command:
-You need to double-click the index.html file.
+Open the index.html file with Live Server.
 
 ### Run tests
 
