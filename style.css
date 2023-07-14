@@ -122,7 +122,7 @@
     width: 100vw;
     height: 100vh;
     background: #1c1a19;
-    background-image: url("Assets/Illustrations/illustration.png")
+    background-image: url("Assets/Illustrations/illustration.png");
     background-repeat: no-repeat;
     background-size: 9.2rem 22.8rem;
     background-position-x: right;
