@@ -124,9 +124,9 @@ You can use any web platform like gh-pages for deployment.
 
 
 
-- [ ] **links to other pages on website**
-- [ ] **Javascript functionilty**
-- [ ] **Desktop responsiveness**
+- **links to other pages on website**
+- **Javascript functionilty**
+- **Desktop responsiveness**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

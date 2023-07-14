@@ -46,7 +46,7 @@
     width: 100vw;
     height: 100vh;
     background: #1c1a19;
-    background-image: url("Illustration.png");
+    background-image: url("Assets/Illustrations/illustration.png");
     background-repeat: no-repeat;
     background-size: 9.2rem 22.8rem;
     background-position-x: right;
@@ -142,7 +142,7 @@
   }
 
   .feature-project_preview_image {
-    background-image: url(Architectural.jpg);
+    background-image: url("Architectural.jpg");
     background-size: cover;
     height: 14.8rem;
     width: 100%;
@@ -362,10 +362,10 @@
   }
 
   .project_skills {
-    width: 15.4rem;
     height: 2.5rem;
     margin-left: 0.8rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
@@ -778,7 +778,7 @@
     top: 58px;
     padding: 200px 140px;
     background: #1c1a19;
-    background-image: url("Illustration-header.png");
+    background-image: url("Assets/Illustrations/Illustration-header.png");
     background-repeat: no-repeat;
     background-size: 41rem 50rem;
     background-position-x: right;
@@ -1000,7 +1000,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
+    width: 28.1%;
     height: 24.1rem;
     background:
       linear-gradient(
@@ -1017,7 +1017,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
+    width: 28.1%;
     height: 24.1rem;
     background:
       linear-gradient(
@@ -1034,7 +1034,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
+    width: 28.1%;
     height: 24.1rem;
     background:
       linear-gradient(
@@ -1051,7 +1051,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
+    width: 28.1%;
     height: 24.1rem;
     background:
       linear-gradient(
@@ -1068,7 +1068,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
+    width: 28.1%;
     height: 24.1rem;
     background:
       linear-gradient(
@@ -1085,7 +1085,7 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
+    width: 28.1%;
     height: 24.1rem;
     background:
       linear-gradient(
@@ -1127,6 +1127,7 @@
     height: 2.5rem;
     margin-left: 0.8rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     list-style: none;
@@ -1148,7 +1149,7 @@
   }
 
   .project_link {
-    width: 20.4rem;
+    width: 100%;
     height: 3rem;
     left: 0;
     top: 0;
@@ -1182,7 +1183,7 @@
     margin: auto;
     padding: 130px 140px;
     background: #1c1a19;
-    background-image: url(desktop_about_me_illustration.png);
+    background-image: url('Assets/Illustrations/desktop_about_me_illustration.png');
     background-repeat: no-repeat;
     background-size: 36.6rem 22.1rem;
     background-position-x: right;
