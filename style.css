@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
   *,
   *::after,
   *::before {
@@ -118,11 +118,10 @@
   .page_container {
     align-items: flex-start;
     position: relative;
-    padding: 7.5rem 1.5rem;
+    padding: 33% 6.4%;
     width: 100vw;
-    height: 100vh;
     background: #1c1a19;
-    background-image: url("illustration.png");
+    background-image: url("Assets/Illustrations/illustration.png");
     background-repeat: no-repeat;
     background-size: 9.2rem 22.8rem;
     background-position-x: right;
@@ -131,7 +130,7 @@
 
   .headline {
     display: flex;
-    width: 20.4rem;
+    width: 100%;
     flex-direction: column;
     justify-content: space-between;
     gap: 1.5rem;
@@ -201,13 +200,27 @@
     margin-top: 1.5rem;
   }
 
+  .recent_works {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .separation {
+    width: 100%;
+    margin-top: 2rem;
+    margin-bottom: 3.1rem;
+    color: #100f0f;
+  }
+
   .portfolio {
     position: relative;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    width: 100vw;
-    padding: 7.5rem 1.5rem;
+    padding: 10% 7.5%;
     gap: 1.5rem;
     background: #e5e5e5;
   }
@@ -220,13 +233,6 @@
     letter-spacing: 0.01rem;
     text-align: center;
     color: #1c1a19;
-  }
-
-  .separation {
-    width: 100%;
-    margin-top: 2rem;
-    margin-bottom: 3.1rem;
-    color: #100f0f;
   }
 
   .feature-project_preview_image {
@@ -255,7 +261,6 @@
   }
 
   .feature-project_description {
-    width: 20.4rem;
     font-family: 'Inter', serif;
     font-weight: 400;
     font-size: 1rem;
@@ -266,11 +271,11 @@
   .feature-project_skills {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 5%;
   }
 
   .feature-skill_container {
-    padding: 0.6rem 0.75rem;
+    padding: 0.9% 1%;
     border: 0.06rem solid #1c1a19;
     list-style: none;
   }
@@ -322,13 +327,19 @@
     letter-spacing: 0.03rem;
   }
 
+  .portfolio_thumbnails {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+    grid-row-gap: 1.5em;
+    background: #e5e5e5;
+  }
+
   .project_container_1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -344,8 +355,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -361,8 +370,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -378,8 +385,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -395,8 +400,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -412,8 +415,6 @@
     flex-direction: column;
     justify-content: space-between;
     gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -450,12 +451,12 @@
   }
 
   .project_skills {
-    width: 15.4rem;
     height: 2.5rem;
     margin-left: 0.8rem;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 5%;
     list-style: none;
   }
 
@@ -475,7 +476,6 @@
   }
 
   .project_link {
-    width: 20.4rem;
     height: 3rem;
     left: 0;
     top: 0;
@@ -508,15 +508,12 @@
     position: relative;
     width: 100%;
     background: #1c1a19;
-    padding-top: 7.5rem;
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-    padding-bottom: 3.1rem;
-    background-image: url(resume_illustration.png);
+    padding: 20% 7.5% 15% 7.5%;
+    background-image: url('Assets/Illustrations/resume_illustration.png');
     background-repeat: no-repeat;
     background-size: 10rem 15.6rem;
     background-position-x: right;
-    background-position-y: 24rem;
+    background-position-y: 20%;
   }
 
   .bio_header {
@@ -527,17 +524,6 @@
     letter-spacing: 0.05em;
     text-align: left;
     color: #ff6b00;
-  }
-
-  .portfolio_thumbnails {
-    position: relative;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    width: 100%;
-    gap: 24px;
-    background: #e5e5e5;
   }
 
   .bio {
@@ -672,23 +658,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 4.4rem 1.4rem;
+    padding: 20% 7.5%;
     align-items: center;
     margin: 0 auto;
     box-sizing: border-box;
-    width: 100vw;
     background-color: #fff;
   }
 
   .contact_me_form {
     text-align: center;
     color: #172b4d;
-    width: 20.4rem;
     margin-top: 4.6rem;
+    width: 100%;
   }
 
   .contact-bio {
-    width: 20.4rem;
     height: auto;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
@@ -699,7 +683,8 @@
 
   #name-id,
   #email-id {
-    width: 20.4rem;
+    width: 100%;
+    margin-left: 10px;
     font-family: 'Inter', sans-serif;
     font-weight: 400;
     font-size: 0.9rem;
@@ -707,7 +692,6 @@
     border: none;
     outline: none;
     color: #979493;
-    margin-left: 1rem;
 
     &:valid {
       outline: 0.09rem solid green;
@@ -715,14 +699,14 @@
   }
 
   .seperation_line {
-    width: 20.4rem;
+    width: 100%;
     margin: 0 auto;
     border: 0.06rem solid #c9bebb;
     margin-top: 0.5rem;
   }
 
   .seperation_line_1 {
-    width: 20.4rem;
+    width: 100%;
     margin: 0 auto;
     border: 0.06rem solid #c9bebb;
     margin-top: 0.5rem;
@@ -731,7 +715,7 @@
 
   #text-area {
     background-color: #eeeae8;
-    width: 20.4rem;
+    width: 100%;
     border: none;
     margin-top: 1.3rem;
     margin-bottom: 1.3rem;
@@ -812,6 +796,7 @@
   *::before {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   .nav_bar_container {
@@ -821,7 +806,6 @@
     position: fixed;
     right: 0;
     left: 0;
-    margin: auto;
     background: #3c3a39;
     align-items: center;
     padding: 5px 8.1%;
@@ -874,24 +858,21 @@
 
   .page_container {
     position: relative;
-    height: 580px;
-    margin: auto;
-    top: 58px;
-    padding: 200px 140px;
+    height: 100vh;
+    padding: 15% 10%;
     background: #1c1a19;
-    background-image: url("Illustration-header.png");
+    background-image: url("Assets/Illustrations/Illustration-header.png");
     background-repeat: no-repeat;
     background-size: 41rem 50rem;
     background-position-x: right;
-    background-position-y: 0;
+    background-position-y: 70%;
   }
 
   .headline {
     display: flex;
-    width: 48.3%;
     flex-direction: column;
-    justify-content: space-between;
     gap: 2rem;
+    width: 60%;
   }
 
   .main_text {
@@ -904,7 +885,6 @@
     line-height: 5.1rem;
     margin: 0;
     color: #ff6b00;
-    width: 80%;
   }
 
   .subject_text {
@@ -951,9 +931,7 @@
     position: relative;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    padding: 130px 140px;
+    padding: 12.5% 8%;
     gap: 24px;
     background: #e5e5e5;
   }
@@ -968,43 +946,32 @@
     color: #091e42;
   }
 
-  .portfolio_thumbnails {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    gap: 24px;
-    background: #e5e5e5;
-  }
-
   .recent_works {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 2%;
+    align-items: center;
     width: 100%;
     height: 3.5rem;
     margin-bottom: 80px;
   }
 
   .separation {
-    width: 750px;
-    margin-top: 32px;
+    width: 65%;
+    height: 5px;
     color: #121010;
   }
 
   .feature_project {
-    width: 100%;
-    height: 28rem;
     display: flex;
     justify-content: space-between;
   }
 
   .feature-project_preview_image {
-    display: inline-block;
     background-image: url(Architectural.jpg);
     background-size: cover;
-    height: 100%;
+    background-repeat: no-repeat;
+    height: auto;
     width: 58.9%;
     left: 1.5rem;
     border-radius: 0.31rem;
@@ -1015,7 +982,6 @@
     flex-direction: column;
     gap: 1.5rem;
     width: 38.6%;
-    height: 22rem;
   }
 
   .feature-project_title {
@@ -1038,16 +1004,15 @@
   }
 
   .feature-project_skills {
-    position: relative;
     display: flex;
     flex-direction: row;
     list-style: none;
+    gap: 4%;
   }
 
   .feature-skill_container {
-    padding: 0.6rem 0.75rem;
-    border: 0.06rem solid #1c1a19;
-    margin-right: 0.75rem;
+    padding: 2%;
+    border: 0.06rem solid #8993a4;
   }
 
   .feature-skill {
@@ -1096,13 +1061,19 @@
     letter-spacing: 0.03em;
   }
 
+  .portfolio_thumbnails {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 435px;
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+    background: #e5e5e5;
+  }
+
   .project_container_1 {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -1117,9 +1088,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -1134,9 +1102,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -1151,9 +1116,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -1168,9 +1130,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -1185,9 +1144,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 0.75rem;
-    width: 20.4rem;
-    height: 24.1rem;
     background:
       linear-gradient(
         180.45deg,
@@ -1224,17 +1180,16 @@
   }
 
   .project_skills {
-    width: 15.4rem;
-    height: 2.5rem;
-    margin-left: 0.8rem;
+    margin-left: 6%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    gap: 5%;
     list-style: none;
   }
 
   .skill_container {
-    padding: 0.6rem 0.75rem;
+    padding: 2%;
     background: rgba(255, 255, 255, 0.24);
   }
 
@@ -1249,7 +1204,7 @@
   }
 
   .project_link {
-    width: 20.4rem;
+    width: 100%;
     height: 3rem;
     left: 0;
     top: 0;
@@ -1278,12 +1233,10 @@
   }
 
   .about_me {
-    position: relative;
-    height: 64rem;
-    margin: auto;
-    padding: 130px 140px;
+    width: 100%;
+    padding: 8% 10%;
     background: #1c1a19;
-    background-image: url(desktop_about_me_illustration.png);
+    background-image: url('Assets/Illustrations/desktop_about_me_illustration.png');
     background-repeat: no-repeat;
     background-size: 36.6rem 22.1rem;
     background-position-x: right;
@@ -1293,9 +1246,8 @@
   .about_me_container {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    width: 48.9%;
-    height: auto;
+    gap: 1em;
+    width: 60%;
   }
 
   .bio_header {
@@ -1370,17 +1322,14 @@
     width: 100%;
     position: relative;
     margin-top: 8.75rem;
+    margin-bottom: 8em;
     color: #f7f4f4;
   }
 
   .knowledge {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    position: relative;
-    top: 8.6rem;
-    gap: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-row-gap: 3em;
     margin: auto;
   }
 
@@ -1441,26 +1390,27 @@
     display: flex;
     gap: 2%;
     margin: auto;
-    padding: 130px 140px;
+    padding: 10% 8%;
     background-color: #fff;
   }
 
   .contact-bio {
     display: inline-block;
     margin-top: 0;
-    width: 38.9%;
+    width: 50%;
     height: 330px;
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     font-size: 40px;
     line-height: 56px;
+    color: #262626;
   }
 
   .contact_me_form {
     display: inline-block;
     text-align: left;
     color: #172b4d;
-    width: 60%;
+    width: 50%;
     height: 373px;
   }
 
@@ -1481,14 +1431,12 @@
   }
 
   .seperation_line {
-    width: 87%;
     border: 1px solid #dbd8d7;
     margin-top: 20px;
     margin-bottom: 20px;
   }
 
   .seperation_line_1 {
-    width: 87%;
     border: 1px solid #dbd8d7;
     margin-top: 1.2rem;
     margin-bottom: 40px;
@@ -1497,7 +1445,7 @@
   #text-area {
     background-color: #fbf8f7;
     height: 30%;
-    width: 85%;
+    width: 100%;
     border: none;
     margin-bottom: 24px;
     color: #3c3a39;
@@ -1551,7 +1499,6 @@
   .footer {
     display: flex;
     padding: 1.1%;
-    width: 97.7%;
     margin: auto;
     align-items: center;
     justify-content: space-around;
