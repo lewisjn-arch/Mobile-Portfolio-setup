@@ -1284,7 +1284,7 @@
     border: none;
     background: #ff6b00;
     color: #fff;
-    transition: transform 500ms;
+    transition: transform 600ms;
     transition-timing-function: cubic-bezier(0.75, -3, 0.55, 4);
 
     &:enabled {
